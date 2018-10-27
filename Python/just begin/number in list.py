@@ -13,12 +13,31 @@
 
 def numbers_in_lists(string):
     # YOUR CODE
-    prenumber = string[0]
+
     finallist = []
+    stringlist = []
     for number in string:
-        if number <= prenumber:
-
-
+        number = int(number)
+        stringlist.append(number)
+    prenumber = stringlist[0]
+    finallist.append(prenumber)
+    stringlist.pop(0)
+    while stringlist != []:
+        number = stringlist[0]
+        if number > prenumber:
+            finallist.append(number)
+            prenumber = number
+            stringlist.pop(0)
+        else:
+            sublist = []
+            while number <= prenumber:
+                sublist.append(number)
+                stringlist.pop(0)
+                if stringlist == []:
+                    break
+                number = stringlist[0]
+            finallist.append(sublist)
+    return finallist
 
 #testcases
 string = '543987'
