@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d66cecd4-9455-4346-b17d-07ca161ccc62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/add to index.py" beforeDir="false" afterPath="$PROJECT_DIR$/add to index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lookup in index.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,23 +23,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="9" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="8" />
+          <entry key="Python" value="9" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3038" />
+          <entry key="py" value="3144" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2026" />
+          <entry key="Python" value="2132" />
           <entry key="Scratch" value="1012" />
         </counts>
       </usages-collector>
@@ -66,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/add to index.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
@@ -74,6 +74,18 @@
               <folding>
                 <marker date="1540705475908" expanded="true" signature="388:393" ph="..." />
                 <marker date="1540705475908" expanded="true" signature="443:668" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lookup in index.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <marker date="1540705713873" expanded="true" signature="383:495" ph="..." />
               </folding>
             </state>
           </provider>
@@ -102,6 +114,7 @@
         <option value="$PROJECT_DIR$/Frequency Analysis.py" />
         <option value="$PROJECT_DIR$/number in list.py" />
         <option value="$PROJECT_DIR$/add to index.py" />
+        <option value="$PROJECT_DIR$/lookup in index.py" />
       </list>
     </option>
   </component>
@@ -179,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.add to index">
+  <component name="RunManager" selected="Python.lookup in index">
     <configuration name="Frequency Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,27 +214,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Kaiyu Luo project 1 update 3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="just begin" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../GWU/6200 Python &amp; SQL/Week 7 Mid - term" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../GWU/6200 Python &amp; SQL/Week 7 Mid - term/Kaiyu Luo project 1 update 3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="add to index" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,6 +227,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/add to index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lookup in index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="just begin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lookup in index.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,18 +300,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.number in list" />
-      <item itemvalue="Python.Kaiyu Luo project 1 update 3" />
       <item itemvalue="Python.scratch" />
       <item itemvalue="Python.Frequency Analysis" />
       <item itemvalue="Python.add to index" />
+      <item itemvalue="Python.lookup in index" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lookup in index" />
         <item itemvalue="Python.add to index" />
         <item itemvalue="Python.Frequency Analysis" />
         <item itemvalue="Python.scratch" />
         <item itemvalue="Python.number in list" />
-        <item itemvalue="Python.Kaiyu Luo project 1 update 3" />
       </list>
     </recent_temporary>
   </component>
@@ -406,6 +419,16 @@
           <folding>
             <marker date="1540705475908" expanded="true" signature="388:393" ph="..." />
             <marker date="1540705475908" expanded="true" signature="443:668" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lookup in index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <marker date="1540705713873" expanded="true" signature="383:495" ph="..." />
           </folding>
         </state>
       </provider>
