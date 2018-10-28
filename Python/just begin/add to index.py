@@ -22,12 +22,7 @@ def add_to_index(index,keyword,url):
                 if url not in sublists[1]:
                     sublists[1].append(url)
     else:
-        sublist = []
-        sublist.append(keyword)
-        urllist = []
-        urllist.append(url)
-        sublist.append(urllist)
-        index.append(sublist)
+        index.append([keyword,[url]])
     return index
 
 
