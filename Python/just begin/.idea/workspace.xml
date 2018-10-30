@@ -248,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.scratch">
+  <component name="RunManager" selected="Python.add to index">
     <configuration name="Better splitting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -363,9 +363,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.add to index" />
         <item itemvalue="Python.scratch" />
         <item itemvalue="Python.Counting Clicks" />
-        <item itemvalue="Python.add to index" />
         <item itemvalue="Python.improve the index" />
         <item itemvalue="Python.Better splitting" />
       </list>

@@ -16,13 +16,14 @@
 index = []
 
 def add_to_index(index,keyword,url):
-    if any(keyword in sublists for sublists in index):
-        for sublists in index:
-            if keyword in sublists:
-                if url not in sublists[1]:
-                    sublists[1].append(url)
-    else:
-        index.append([keyword,[url]])
+    for sublists in index:
+        if keyword == sublists[0]:
+            for urls in sublists[1]:
+                if url == urls[0]:
+                    return
+            sublists[1].append(url)
+            return
+    index.append([keyword, [url]])
 
 
 
