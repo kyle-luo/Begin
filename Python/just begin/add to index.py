@@ -23,7 +23,6 @@ def add_to_index(index,keyword,url):
                     sublists[1].append(url)
     else:
         index.append([keyword,[url]])
-    return index
 
 
 
