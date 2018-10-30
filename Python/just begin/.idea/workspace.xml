@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d66cecd4-9455-4346-b17d-07ca161ccc62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/word count.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/latency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,23 +24,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="15" />
+          <entry key="py" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="14" />
+          <entry key="Python" value="16" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4376" />
+          <entry key="py" value="4724" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3314" />
+          <entry key="Python" value="3662" />
           <entry key="Scratch" value="1062" />
         </counts>
       </usages-collector>
@@ -51,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="21" selection-end-column="35" />
+            <state relative-caret-position="315">
+              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding>
                 <marker date="1540881732652" expanded="true" signature="388:632" ph="..." />
               </folding>
@@ -61,12 +62,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/word count.py">
+        <entry file="file://$PROJECT_DIR$/latency.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="71" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="71" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="16" />
               <folding>
-                <marker date="1540883130487" expanded="true" signature="224:355" ph="..." />
+                <marker date="1540883856561" expanded="true" signature="318:426" ph="..." />
               </folding>
             </state>
           </provider>
@@ -101,6 +102,8 @@
         <option value="$PROJECT_DIR$/Counting Clicks.py" />
         <option value="$PROJECT_DIR$/add to index.py" />
         <option value="$PROJECT_DIR$/venv/word count.py" />
+        <option value="$PROJECT_DIR$/venv/latency.py" />
+        <option value="$PROJECT_DIR$/latency.py" />
       </list>
     </option>
   </component>
@@ -124,11 +127,6 @@
             <path>
               <item name="just begin" type="b2602c69:ProjectViewProjectNode" />
               <item name="just begin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="just begin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="just begin" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="just begin" type="b2602c69:ProjectViewProjectNode" />
@@ -183,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.word count">
+  <component name="RunManager" selected="Python.latency">
     <configuration name="Counting Clicks" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,7 +224,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="improve the index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="latency" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,7 +236,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/improve the index.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/latency.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -290,19 +288,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.improve the index" />
       <item itemvalue="Python.Counting Clicks" />
       <item itemvalue="Python.scratch" />
       <item itemvalue="Python.add to index" />
       <item itemvalue="Python.word count" />
+      <item itemvalue="Python.latency" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.latency" />
         <item itemvalue="Python.word count" />
         <item itemvalue="Python.add to index" />
         <item itemvalue="Python.scratch" />
         <item itemvalue="Python.Counting Clicks" />
-        <item itemvalue="Python.improve the index" />
       </list>
     </recent_temporary>
   </component>
@@ -455,22 +453,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/word count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/latency.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="315">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
             <marker date="1540881732652" expanded="true" signature="388:632" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/word count.py">
+    <entry file="file://$PROJECT_DIR$/latency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="71" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="71" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="16" />
           <folding>
-            <marker date="1540883130487" expanded="true" signature="224:355" ph="..." />
+            <marker date="1540883856561" expanded="true" signature="318:426" ph="..." />
           </folding>
         </state>
       </provider>
