@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d66cecd4-9455-4346-b17d-07ca161ccc62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/find buckets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adding keywords hashtable.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,23 +23,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="26" />
+          <entry key="py" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="25" />
+          <entry key="Python" value="26" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5963" />
+          <entry key="py" value="6129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4901" />
+          <entry key="Python" value="5067" />
           <entry key="Scratch" value="1062" />
         </counts>
       </usages-collector>
@@ -73,14 +72,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/find buckets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="22" />
               <folding>
-                <marker date="1541011229855" expanded="true" signature="276:339" ph="..." />
+                <marker date="1541011575609" expanded="true" signature="198:268" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/adding keywords hashtable.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -121,6 +129,7 @@
         <option value="$PROJECT_DIR$/hash string.py" />
         <option value="$PROJECT_DIR$/make hushtable nbuckets.py" />
         <option value="$PROJECT_DIR$/find buckets.py" />
+        <option value="$PROJECT_DIR$/adding keywords hashtable.py" />
       </list>
     </option>
   </component>
@@ -198,8 +207,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.find buckets">
-    <configuration name="converting seconds" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.adding keywords hashtable">
+    <configuration name="adding keywords hashtable" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,7 +220,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/converting seconds.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/adding keywords hashtable.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,19 +314,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.converting seconds" />
       <item itemvalue="Python.download calculator" />
       <item itemvalue="Python.hash string" />
       <item itemvalue="Python.make hushtable nbuckets" />
       <item itemvalue="Python.find buckets" />
+      <item itemvalue="Python.adding keywords hashtable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.adding keywords hashtable" />
         <item itemvalue="Python.find buckets" />
         <item itemvalue="Python.make hushtable nbuckets" />
         <item itemvalue="Python.hash string" />
         <item itemvalue="Python.download calculator" />
-        <item itemvalue="Python.converting seconds" />
       </list>
     </recent_temporary>
   </component>
@@ -542,11 +551,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/find buckets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="22" />
           <folding>
-            <marker date="1541011229855" expanded="true" signature="276:339" ph="..." />
+            <marker date="1541011575609" expanded="true" signature="198:268" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adding keywords hashtable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
