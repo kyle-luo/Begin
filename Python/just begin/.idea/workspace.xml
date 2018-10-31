@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d66cecd4-9455-4346-b17d-07ca161ccc62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hash string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/make hushtable nbuckets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,23 +24,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="24" />
+          <entry key="py" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="23" />
+          <entry key="Python" value="24" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5631" />
+          <entry key="py" value="5755" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4569" />
+          <entry key="Python" value="4693" />
           <entry key="Scratch" value="1062" />
         </counts>
       </usages-collector>
@@ -106,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hash string.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -114,6 +114,15 @@
               <folding>
                 <marker date="1540968459204" expanded="true" signature="218:322" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/make hushtable nbuckets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -152,6 +161,7 @@
         <option value="$PROJECT_DIR$/converting seconds.py" />
         <option value="$PROJECT_DIR$/download calculator.py" />
         <option value="$PROJECT_DIR$/hash string.py" />
+        <option value="$PROJECT_DIR$/make hushtable nbuckets.py" />
       </list>
     </option>
   </component>
@@ -229,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hash string">
+  <component name="RunManager" selected="Python.make hushtable nbuckets">
     <configuration name="converting seconds" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -314,7 +324,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="word count" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="make hushtable nbuckets" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,11 +332,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/word count.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make hushtable nbuckets.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,19 +346,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.word count" />
       <item itemvalue="Python.latency" />
       <item itemvalue="Python.converting seconds" />
       <item itemvalue="Python.download calculator" />
       <item itemvalue="Python.hash string" />
+      <item itemvalue="Python.make hushtable nbuckets" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.make hushtable nbuckets" />
         <item itemvalue="Python.hash string" />
         <item itemvalue="Python.download calculator" />
         <item itemvalue="Python.converting seconds" />
         <item itemvalue="Python.latency" />
-        <item itemvalue="Python.word count" />
       </list>
     </recent_temporary>
   </component>
@@ -561,6 +571,13 @@
           <folding>
             <marker date="1540968459204" expanded="true" signature="218:322" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make hushtable nbuckets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
         </state>
       </provider>
     </entry>
