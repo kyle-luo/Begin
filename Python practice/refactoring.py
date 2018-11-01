@@ -7,33 +7,33 @@
 
 def hashtable_update(htable, key, value):
     bucket = hashtable_get_bucket(htable, key)
-    for entry in bucket:
-        if entry[0] == key:
-            entry[1] = value
-            return
-    bucket.append([key, value])
+    bucket[key] = value
+
 
 def hashtable_lookup(htable, key):
     bucket = hashtable_get_bucket(htable, key)
-    for entry in bucket:
-        if entry[0] == key:
-            return entry[1]
+    if key in bucket:
+        return bucket[key]
     return None
 
+
 def make_hashtable(size):
-    table = {}
+    table = []
     for unused in range(0, size):
-        table.append([])
+        table.append({})
     return table
+
 
 def hash_string(s, size):
     h = 0
     for c in s:
-         h = h + ord(c)
+        h = h + ord(c)
     return h % size
+
 
 def hashtable_get_bucket(htable, key):
     return htable[hash_string(key, len(htable))]
+
 
 # Whenever we have duplicate code like the loop that finds the entry in
 # hashtable_update and hashtable_lookup, we should think if there is a better way
@@ -51,12 +51,11 @@ def hashtable_get_bucket(htable, key):
 # Your procedures should have the same behavior as the originals.  For example,
 
 table = make_hashtable(10)
-print table
 hashtable_update(table, 'Python', 'Monty')
 hashtable_update(table, 'CLU', 'Barbara Liskov')
 hashtable_update(table, 'JavaScript', 'Brendan Eich')
 hashtable_update(table, 'Python', 'Guido van Rossum')
 
-#print hashtable_lookup(table, 'Python')
-#>>> Guido van Rossum
+print hashtable_lookup(table, 'Python')
+# >>> Guido van Rossum
 
