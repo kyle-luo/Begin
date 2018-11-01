@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d66cecd4-9455-4346-b17d-07ca161ccc62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/update hashtable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/is offered.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/when offered.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,23 +25,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="29" />
+          <entry key="py" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="28" />
+          <entry key="Python" value="31" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="6331" />
+          <entry key="py" value="6587" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5269" />
+          <entry key="Python" value="5525" />
           <entry key="Scratch" value="1062" />
         </counts>
       </usages-collector>
@@ -51,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="408">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding>
                 <marker date="1540881732652" expanded="true" signature="388:632" ph="..." />
               </folding>
@@ -61,55 +63,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/latency.py">
+        <entry file="file://$PROJECT_DIR$/is offered.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="70" lean-forward="true" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+            <state relative-caret-position="366">
+              <caret line="79" selection-start-line="79" selection-end-line="83" selection-end-column="16" />
               <folding>
-                <marker date="1540883856561" expanded="true" signature="318:426" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/find buckets.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="22" />
-              <folding>
-                <marker date="1541011575609" expanded="true" signature="198:268" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adding keywords hashtable.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lookup hashtable.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="25" />
-              <folding>
-                <marker date="1541024455424" expanded="true" signature="200:324" ph="..." />
+                <marker date="1541051713394" expanded="true" signature="3138:3253" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/update hashtable.py">
+        <entry file="file://$PROJECT_DIR$/when offered.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="391">
+              <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+              <folding>
+                <marker date="1541052039022" expanded="true" signature="2623:2726" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,6 +125,8 @@
         <option value="$PROJECT_DIR$/adding keywords hashtable.py" />
         <option value="$PROJECT_DIR$/lookup hashtable.py" />
         <option value="$PROJECT_DIR$/update hashtable.py" />
+        <option value="$PROJECT_DIR$/is offered.py" />
+        <option value="$PROJECT_DIR$/when offered.py" />
       </list>
     </option>
   </component>
@@ -176,21 +150,6 @@
             <path>
               <item name="just begin" type="b2602c69:ProjectViewProjectNode" />
               <item name="just begin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="just begin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="just begin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 2.7 (just begin) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="just begin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 2.7 (just begin) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="just begin" type="b2602c69:ProjectViewProjectNode" />
@@ -230,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.update hashtable">
+  <component name="RunManager" selected="Python.when offered">
     <configuration name="adding keywords hashtable" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -252,7 +211,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="find buckets" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="is offered" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,7 +223,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find buckets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/is offered.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,27 +253,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="make hushtable nbuckets" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="just begin" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make hushtable nbuckets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="update hashtable" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -336,20 +274,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="when offered" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="just begin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/when offered.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.make hushtable nbuckets" />
-      <item itemvalue="Python.find buckets" />
       <item itemvalue="Python.adding keywords hashtable" />
       <item itemvalue="Python.lookup hashtable" />
       <item itemvalue="Python.update hashtable" />
+      <item itemvalue="Python.is offered" />
+      <item itemvalue="Python.when offered" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.when offered" />
+        <item itemvalue="Python.is offered" />
         <item itemvalue="Python.update hashtable" />
         <item itemvalue="Python.lookup hashtable" />
         <item itemvalue="Python.adding keywords hashtable" />
-        <item itemvalue="Python.find buckets" />
-        <item itemvalue="Python.make hushtable nbuckets" />
       </list>
     </recent_temporary>
   </component>
@@ -428,11 +387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding>
-            <marker date="1540679427676" expanded="true" signature="582:584" ph="..." />
-            <marker date="1540679427676" expanded="true" signature="583:584" ph="..." />
-            <marker date="1540679427676" expanded="true" signature="613:618" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -440,10 +394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <marker date="1540852514625" expanded="true" signature="527:529" ph="..." />
-            <marker date="1540852514625" expanded="true" signature="564:925" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -451,9 +401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="48" selection-start-line="48" selection-end-line="55" selection-end-column="38" />
-          <folding>
-            <marker date="1540881934207" expanded="true" signature="1213:1387" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -461,10 +408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-          <folding>
-            <marker date="1540882033731" expanded="true" signature="388:393" ph="..." />
-            <marker date="1540882033731" expanded="true" signature="636:645" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -472,9 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <marker date="1540705713873" expanded="true" signature="383:495" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -492,9 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="13" selection-start-line="13" selection-end-line="31" selection-end-column="17" />
-          <folding>
-            <marker date="1540884839771" expanded="true" signature="887:1066" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -502,19 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="70" lean-forward="true" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
-          <folding>
-            <marker date="1540883856561" expanded="true" signature="318:426" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <marker date="1540881732652" expanded="true" signature="388:632" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,9 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <marker date="1540838406305" expanded="true" signature="517:612" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -542,9 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="95" column="37" lean-forward="true" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
-          <folding>
-            <marker date="1540886029757" expanded="true" signature="1985:2121" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,9 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <marker date="1540968459204" expanded="true" signature="218:322" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -576,9 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <marker date="1541011575609" expanded="true" signature="198:268" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -593,16 +505,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <marker date="1541024455424" expanded="true" signature="200:324" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/update hashtable.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="493">
+          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkfactors.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <marker date="1540881732652" expanded="true" signature="388:632" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/is offered.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="79" selection-start-line="79" selection-end-line="83" selection-end-column="16" />
+          <folding>
+            <marker date="1541051713394" expanded="true" signature="3138:3253" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/when offered.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+          <folding>
+            <marker date="1541052039022" expanded="true" signature="2623:2726" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
