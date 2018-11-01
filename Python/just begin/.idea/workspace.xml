@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d66cecd4-9455-4346-b17d-07ca161ccc62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/is offered.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/when offered.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/involved.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,23 +24,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="32" />
+          <entry key="py" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="31" />
+          <entry key="Python" value="32" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="6587" />
+          <entry key="py" value="7143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5525" />
+          <entry key="Python" value="6081" />
           <entry key="Scratch" value="1062" />
         </counts>
       </usages-collector>
@@ -74,13 +73,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/when offered.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+            <state relative-caret-position="315">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
               <folding>
-                <marker date="1541052039022" expanded="true" signature="2623:2726" ph="..." />
+                <marker date="1541052227636" expanded="true" signature="2639:2754" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/involved.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="67" selection-start-line="67" selection-end-line="81" selection-end-column="19" />
+              <folding>
+                <marker date="1541057801424" expanded="true" signature="2907:3526" ph="..." />
               </folding>
             </state>
           </provider>
@@ -127,6 +138,7 @@
         <option value="$PROJECT_DIR$/update hashtable.py" />
         <option value="$PROJECT_DIR$/is offered.py" />
         <option value="$PROJECT_DIR$/when offered.py" />
+        <option value="$PROJECT_DIR$/involved.py" />
       </list>
     </option>
   </component>
@@ -189,8 +201,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.when offered">
-    <configuration name="adding keywords hashtable" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.involved">
+    <configuration name="involved" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -202,7 +214,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/adding keywords hashtable.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/involved.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,19 +308,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.adding keywords hashtable" />
       <item itemvalue="Python.lookup hashtable" />
       <item itemvalue="Python.update hashtable" />
       <item itemvalue="Python.is offered" />
       <item itemvalue="Python.when offered" />
+      <item itemvalue="Python.involved" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.involved" />
         <item itemvalue="Python.when offered" />
         <item itemvalue="Python.is offered" />
         <item itemvalue="Python.update hashtable" />
         <item itemvalue="Python.lookup hashtable" />
-        <item itemvalue="Python.adding keywords hashtable" />
       </list>
     </recent_temporary>
   </component>
@@ -540,10 +552,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/when offered.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
           <folding>
-            <marker date="1541052039022" expanded="true" signature="2623:2726" ph="..." />
+            <marker date="1541052227636" expanded="true" signature="2639:2754" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/involved.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="67" selection-start-line="67" selection-end-line="81" selection-end-column="19" />
+          <folding>
+            <marker date="1541057801424" expanded="true" signature="2907:3526" ph="..." />
           </folding>
         </state>
       </provider>
