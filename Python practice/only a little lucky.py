@@ -32,7 +32,38 @@
 # is not usually a good choice, since it means if the input list is already
 # nearly sorted, the actual work will be much worse than expected).
 
+def bigger(x,y):
+    if x > y:
+        return x
+    return y
+
+def biggest(x):
+    a = x[0]
+    for ele in x:
+        a = bigger(ele,a)
+    return a
+
+def order(x):
+    result = []
+    for things in range(0,len(x)):
+        result.append(biggest(x))
+        x.pop(x.index(biggest(x)))
+    return result
+
+
 def ordered_search(index, ranks, keyword):
+    if keyword in index:
+        lists = []
+        for x in index[keyword]:
+            lists.append(ranks[x])
+        result = []
+        for a in order(lists):
+            for x in ranks:
+                if x in index[keyword]:
+                    if a == ranks[x]:
+                        result.append(x)
+        return result
+    return None
 
 
 
@@ -251,20 +282,20 @@ def compute_ranks(graph):
 index, graph = crawl_web('http://udacity.com/cs101x/urank/index.html')
 ranks = compute_ranks(graph)
 
-#print ordered_search(index, ranks, 'Hummus')
+print ordered_search(index, ranks, 'Hummus')
 #>>> ['http://udacity.com/cs101x/urank/kathleen.html',
 #    'http://udacity.com/cs101x/urank/nickel.html',
 #    'http://udacity.com/cs101x/urank/arsenic.html',
 #    'http://udacity.com/cs101x/urank/hummus.html',
 #    'http://udacity.com/cs101x/urank/index.html']
 
-#print ordered_search(index, ranks, 'the')
+print ordered_search(index, ranks, 'the')
 #>>> ['http://udacity.com/cs101x/urank/nickel.html',
 #    'http://udacity.com/cs101x/urank/arsenic.html',
 #    'http://udacity.com/cs101x/urank/hummus.html',
 #    'http://udacity.com/cs101x/urank/index.html']
 
 
-#print ordered_search(index, ranks, 'babaganoush')
+print ordered_search(index, ranks, 'babaganoush')
 #>>> None
 
