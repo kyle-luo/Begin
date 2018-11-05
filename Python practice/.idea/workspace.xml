@@ -52,23 +52,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3289" />
+          <entry key="py" value="3864" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3011" />
+          <entry key="Python" value="3586" />
           <entry key="Scratch" value="278" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="16" />
+          <entry key="py" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="15" />
+          <entry key="Python" value="16" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -141,13 +141,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/family trees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="25" selection-start-line="25" selection-end-line="33" selection-end-column="19" />
+            <state relative-caret-position="434">
+              <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
               <folding>
                 <marker date="1541391311377" expanded="true" signature="1351:1589" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/khayyam triangle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="27" selection-start-line="27" selection-end-line="46" selection-end-column="16" />
+              <folding>
+                <marker date="1541393292221" expanded="true" signature="990:1106" ph="..." />
+                <marker date="1541393292221" expanded="true" signature="1219:1316" ph="..." />
               </folding>
             </state>
           </provider>
@@ -224,6 +237,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$PROJECT_DIR$/Feeling Lucky.py" />
         <option value="$PROJECT_DIR$/family trees.py" />
+        <option value="$PROJECT_DIR$/khayyam triangle.py" />
       </list>
     </option>
   </component>
@@ -286,7 +300,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.family trees">
+  <component name="RunManager" selected="Python.khayyam triangle">
     <configuration name="Feeling Lucky" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -350,6 +364,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="khayyam triangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="just begin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/khayyam triangle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -371,41 +406,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spreading udaciousness" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="just begin" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spreading udaciousness.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.spreading udaciousness" />
       <item itemvalue="Python.deep count" />
       <item itemvalue="Python.Feeling Lucky" />
       <item itemvalue="Python.scratch" />
       <item itemvalue="Python.family trees" />
+      <item itemvalue="Python.khayyam triangle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.khayyam triangle" />
         <item itemvalue="Python.family trees" />
         <item itemvalue="Python.Feeling Lucky" />
         <item itemvalue="Python.scratch" />
         <item itemvalue="Python.deep count" />
-        <item itemvalue="Python.spreading udaciousness" />
       </list>
     </recent_temporary>
   </component>
@@ -771,10 +785,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/family trees.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="25" selection-start-line="25" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="434">
+          <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
           <folding>
             <marker date="1541391311377" expanded="true" signature="1351:1589" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/khayyam triangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="27" selection-start-line="27" selection-end-line="46" selection-end-column="16" />
+          <folding>
+            <marker date="1541393292221" expanded="true" signature="990:1106" ph="..." />
+            <marker date="1541393292221" expanded="true" signature="1219:1316" ph="..." />
           </folding>
         </state>
       </provider>
