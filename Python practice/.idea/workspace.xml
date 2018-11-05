@@ -52,23 +52,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3864" />
+          <entry key="py" value="4347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Python" value="3586" />
-          <entry key="Scratch" value="278" />
+          <entry key="Scratch" value="761" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="17" />
+          <entry key="py" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="16" />
+          <entry key="Python" value="17" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -77,11 +77,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="122">
+              <caret line="34" selection-start-line="34" selection-end-line="75" selection-end-column="15" />
+              <folding>
+                <marker date="1541394782763" expanded="true" signature="2152:2155" ph="..." />
+                <marker date="1541394782763" expanded="true" signature="2197:2548" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,8 +93,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state>
+              <caret selection-end-line="16" selection-end-column="17" />
+              <folding>
+                <marker date="1541394075329" expanded="true" signature="162:167" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,19 +136,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Feeling Lucky.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1915">
-              <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-              <folding>
-                <marker date="1541389800685" expanded="true" signature="627:686" ph="..." />
-                <marker date="1541389800685" expanded="true" signature="725:1189" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/family trees.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="434">
@@ -153,14 +147,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/khayyam triangle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="27" selection-start-line="27" selection-end-line="46" selection-end-column="16" />
+            <state relative-caret-position="527">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <marker date="1541393292221" expanded="true" signature="990:1106" ph="..." />
                 <marker date="1541393292221" expanded="true" signature="1219:1316" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Feeling Lucky.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4471">
+              <caret line="263" column="49" lean-forward="true" selection-start-line="263" selection-start-column="49" selection-end-line="263" selection-end-column="49" />
+              <folding>
+                <marker date="1541389800685" expanded="true" signature="627:686" ph="..." />
+                <marker date="1541389800685" expanded="true" signature="725:1189" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/only a little lucky.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4590">
+              <caret line="270" selection-end-line="270" />
+              <folding>
+                <marker date="1541393772730" expanded="true" signature="1660:1664" ph="..." />
               </folding>
             </state>
           </provider>
@@ -219,7 +238,6 @@
         <option value="$PROJECT_DIR$/is offered.py" />
         <option value="$PROJECT_DIR$/when offered.py" />
         <option value="$PROJECT_DIR$/involved.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
         <option value="$PROJECT_DIR$/refactoring.py" />
         <option value="$PROJECT_DIR$/Memoization.py" />
         <option value="$PROJECT_DIR$/shift letter.py" />
@@ -234,10 +252,12 @@
         <option value="$PROJECT_DIR$/Finishing Urank.py" />
         <option value="$PROJECT_DIR$/spreading udaciousness.py" />
         <option value="$PROJECT_DIR$/deep count.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$PROJECT_DIR$/Feeling Lucky.py" />
         <option value="$PROJECT_DIR$/family trees.py" />
         <option value="$PROJECT_DIR$/khayyam triangle.py" />
+        <option value="$PROJECT_DIR$/only a little lucky.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
       </list>
     </option>
   </component>
@@ -300,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.khayyam triangle">
+  <component name="RunManager" selected="Python.scratch">
     <configuration name="Feeling Lucky" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -314,27 +334,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Feeling Lucky.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="deep count" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="just begin" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep count.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -406,20 +405,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="scratch_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="just begin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.deep count" />
       <item itemvalue="Python.Feeling Lucky" />
       <item itemvalue="Python.scratch" />
       <item itemvalue="Python.family trees" />
       <item itemvalue="Python.khayyam triangle" />
+      <item itemvalue="Python.scratch_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.scratch" />
+        <item itemvalue="Python.Feeling Lucky" />
+        <item itemvalue="Python.scratch_1" />
         <item itemvalue="Python.khayyam triangle" />
         <item itemvalue="Python.family trees" />
-        <item itemvalue="Python.Feeling Lucky" />
-        <item itemvalue="Python.scratch" />
-        <item itemvalue="Python.deep count" />
       </list>
     </recent_temporary>
   </component>
@@ -721,24 +741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Finishing Urank.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -748,16 +754,6 @@
           <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
           <folding>
             <marker date="1541370505149" expanded="true" signature="1214:1338" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rabbits Multiplying.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="37" column="57" lean-forward="true" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
-          <folding>
-            <marker date="1541368583644" expanded="true" signature="1168:1366" ph="..." />
           </folding>
         </state>
       </provider>
@@ -772,17 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Feeling Lucky.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1915">
-          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding>
-            <marker date="1541389800685" expanded="true" signature="627:686" ph="..." />
-            <marker date="1541389800685" expanded="true" signature="725:1189" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/family trees.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -793,13 +778,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/only a little lucky.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4590">
+          <caret line="270" selection-end-line="270" />
+          <folding>
+            <marker date="1541393772730" expanded="true" signature="1660:1664" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rabbits Multiplying.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="37" column="57" lean-forward="true" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+          <folding>
+            <marker date="1541368583644" expanded="true" signature="1168:1366" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <marker date="1541394075329" expanded="true" signature="162:167" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feeling Lucky.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4471">
+          <caret line="263" column="49" lean-forward="true" selection-start-line="263" selection-start-column="49" selection-end-line="263" selection-end-column="49" />
+          <folding>
+            <marker date="1541389800685" expanded="true" signature="627:686" ph="..." />
+            <marker date="1541389800685" expanded="true" signature="725:1189" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/khayyam triangle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="27" selection-start-line="27" selection-end-line="46" selection-end-column="16" />
+        <state relative-caret-position="527">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           <folding>
             <marker date="1541393292221" expanded="true" signature="990:1106" ph="..." />
             <marker date="1541393292221" expanded="true" signature="1219:1316" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="34" selection-start-line="34" selection-end-line="75" selection-end-column="15" />
+          <folding>
+            <marker date="1541394782763" expanded="true" signature="2152:2155" ph="..." />
+            <marker date="1541394782763" expanded="true" signature="2197:2548" ph="..." />
           </folding>
         </state>
       </provider>
