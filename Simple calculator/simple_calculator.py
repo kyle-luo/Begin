@@ -2,13 +2,12 @@
 
 # Form implementation generated from reading ui file 'simple_calculator.ui'
 #
-# Created: Fri Dec 14 21:03:18 2018
+# Created: Sat Dec 15 16:28:46 2018
 #      by: PyQt4 UI code generator 4.11.3
 #
 # WARNING! All changes made in this file will be lost!
 
 from PyQt4 import QtCore, QtGui
-import sys
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
@@ -38,87 +37,177 @@ class Ui_Form(object):
         self.verticalLayout_2.addLayout(self.verticalLayout)
         self.gridLayout = QtGui.QGridLayout()
         self.gridLayout.setObjectName(_fromUtf8("gridLayout"))
-        self.pushButton_12 = QtGui.QPushButton(Form)
-        self.pushButton_12.setObjectName(_fromUtf8("pushButton_12"))
-        self.gridLayout.addWidget(self.pushButton_12, 3, 5, 1, 1)
-        self.pushButton_10 = QtGui.QPushButton(Form)
-        self.pushButton_10.setObjectName(_fromUtf8("pushButton_10"))
-        self.gridLayout.addWidget(self.pushButton_10, 1, 4, 1, 1)
-        self.pushButton_7 = QtGui.QPushButton(Form)
-        self.pushButton_7.setObjectName(_fromUtf8("pushButton_7"))
-        self.gridLayout.addWidget(self.pushButton_7, 2, 4, 1, 1)
-        self.pushButton_4 = QtGui.QPushButton(Form)
-        self.pushButton_4.setObjectName(_fromUtf8("pushButton_4"))
-        self.gridLayout.addWidget(self.pushButton_4, 3, 4, 1, 1)
-        self.pushButton_13 = QtGui.QPushButton(Form)
-        self.pushButton_13.setObjectName(_fromUtf8("pushButton_13"))
-        self.gridLayout.addWidget(self.pushButton_13, 2, 5, 1, 1)
-        self.pushButton_8 = QtGui.QPushButton(Form)
-        self.pushButton_8.setObjectName(_fromUtf8("pushButton_8"))
-        self.gridLayout.addWidget(self.pushButton_8, 1, 2, 1, 1)
-        self.pushButton_11 = QtGui.QPushButton(Form)
-        self.pushButton_11.setObjectName(_fromUtf8("pushButton_11"))
-        self.gridLayout.addWidget(self.pushButton_11, 4, 4, 1, 1)
-        self.pushButton_5 = QtGui.QPushButton(Form)
-        self.pushButton_5.setObjectName(_fromUtf8("pushButton_5"))
-        self.gridLayout.addWidget(self.pushButton_5, 2, 2, 1, 1)
-        self.pushButton_2 = QtGui.QPushButton(Form)
-        self.pushButton_2.setObjectName(_fromUtf8("pushButton_2"))
-        self.gridLayout.addWidget(self.pushButton_2, 3, 2, 1, 1)
-        self.pushButton_6 = QtGui.QPushButton(Form)
-        self.pushButton_6.setObjectName(_fromUtf8("pushButton_6"))
-        self.gridLayout.addWidget(self.pushButton_6, 2, 3, 1, 1)
-        self.pushButton_3 = QtGui.QPushButton(Form)
-        self.pushButton_3.setObjectName(_fromUtf8("pushButton_3"))
-        self.gridLayout.addWidget(self.pushButton_3, 3, 3, 1, 1)
-        self.pushButton_9 = QtGui.QPushButton(Form)
-        self.pushButton_9.setObjectName(_fromUtf8("pushButton_9"))
-        self.gridLayout.addWidget(self.pushButton_9, 1, 3, 1, 1)
-        self.pushButton_14 = QtGui.QPushButton(Form)
-        self.pushButton_14.setObjectName(_fromUtf8("pushButton_14"))
-        self.gridLayout.addWidget(self.pushButton_14, 1, 5, 1, 1)
-        self.pushButton_15 = QtGui.QPushButton(Form)
-        self.pushButton_15.setObjectName(_fromUtf8("pushButton_15"))
-        self.gridLayout.addWidget(self.pushButton_15, 0, 5, 1, 1)
-        self.pushButton_16 = QtGui.QPushButton(Form)
-        self.pushButton_16.setObjectName(_fromUtf8("pushButton_16"))
-        self.gridLayout.addWidget(self.pushButton_16, 4, 5, 1, 1)
-        self.pushButton_17 = QtGui.QPushButton(Form)
-        self.pushButton_17.setObjectName(_fromUtf8("pushButton_17"))
-        self.gridLayout.addWidget(self.pushButton_17, 0, 4, 1, 1)
-        self.pushButton_18 = QtGui.QPushButton(Form)
-        self.pushButton_18.setObjectName(_fromUtf8("pushButton_18"))
-        self.gridLayout.addWidget(self.pushButton_18, 0, 3, 1, 1)
-        self.pushButton_19 = QtGui.QPushButton(Form)
-        self.pushButton_19.setObjectName(_fromUtf8("pushButton_19"))
-        self.gridLayout.addWidget(self.pushButton_19, 0, 2, 1, 1)
-        self.pushButton = QtGui.QPushButton(Form)
-        self.pushButton.setObjectName(_fromUtf8("pushButton"))
-        self.gridLayout.addWidget(self.pushButton, 4, 2, 1, 2)
+        self.Plus_Button = QtGui.QPushButton(Form)
+        self.Plus_Button.setObjectName(_fromUtf8("Plus_Button"))
+        self.gridLayout.addWidget(self.Plus_Button, 3, 5, 1, 1)
+        self.Nine_Button = QtGui.QPushButton(Form)
+        self.Nine_Button.setObjectName(_fromUtf8("Nine_Button"))
+        self.gridLayout.addWidget(self.Nine_Button, 1, 4, 1, 1)
+        self.Six_Button = QtGui.QPushButton(Form)
+        self.Six_Button.setObjectName(_fromUtf8("Six_Button"))
+        self.gridLayout.addWidget(self.Six_Button, 2, 4, 1, 1)
+        self.Three_Button = QtGui.QPushButton(Form)
+        self.Three_Button.setObjectName(_fromUtf8("Three_Button"))
+        self.gridLayout.addWidget(self.Three_Button, 3, 4, 1, 1)
+        self.Minus_Button = QtGui.QPushButton(Form)
+        self.Minus_Button.setObjectName(_fromUtf8("Minus_Button"))
+        self.gridLayout.addWidget(self.Minus_Button, 2, 5, 1, 1)
+        self.Seven_Button = QtGui.QPushButton(Form)
+        self.Seven_Button.setObjectName(_fromUtf8("Seven_Button"))
+        self.gridLayout.addWidget(self.Seven_Button, 1, 2, 1, 1)
+        self.Point_Button = QtGui.QPushButton(Form)
+        self.Point_Button.setObjectName(_fromUtf8("Point_Button"))
+        self.gridLayout.addWidget(self.Point_Button, 4, 4, 1, 1)
+        self.Four_Button = QtGui.QPushButton(Form)
+        self.Four_Button.setObjectName(_fromUtf8("Four_Button"))
+        self.gridLayout.addWidget(self.Four_Button, 2, 2, 1, 1)
+        self.One_Button = QtGui.QPushButton(Form)
+        self.One_Button.setObjectName(_fromUtf8("One_Button"))
+        self.gridLayout.addWidget(self.One_Button, 3, 2, 1, 1)
+        self.Five_Button = QtGui.QPushButton(Form)
+        self.Five_Button.setObjectName(_fromUtf8("Five_Button"))
+        self.gridLayout.addWidget(self.Five_Button, 2, 3, 1, 1)
+        self.Two_Button = QtGui.QPushButton(Form)
+        self.Two_Button.setObjectName(_fromUtf8("Two_Button"))
+        self.gridLayout.addWidget(self.Two_Button, 3, 3, 1, 1)
+        self.Eight_Button = QtGui.QPushButton(Form)
+        self.Eight_Button.setObjectName(_fromUtf8("Eight_Button"))
+        self.gridLayout.addWidget(self.Eight_Button, 1, 3, 1, 1)
+        self.Times_Button = QtGui.QPushButton(Form)
+        self.Times_Button.setObjectName(_fromUtf8("Times_Button"))
+        self.gridLayout.addWidget(self.Times_Button, 1, 5, 1, 1)
+        self.Divide_Button = QtGui.QPushButton(Form)
+        self.Divide_Button.setObjectName(_fromUtf8("Divide_Button"))
+        self.gridLayout.addWidget(self.Divide_Button, 0, 5, 1, 1)
+        self.Result_Button = QtGui.QPushButton(Form)
+        self.Result_Button.setObjectName(_fromUtf8("Result_Button"))
+        self.gridLayout.addWidget(self.Result_Button, 4, 5, 1, 1)
+        self.Percentage_Button = QtGui.QPushButton(Form)
+        self.Percentage_Button.setObjectName(_fromUtf8("Percentage_Button"))
+        self.gridLayout.addWidget(self.Percentage_Button, 0, 4, 1, 1)
+        self.P_or_N_Button = QtGui.QPushButton(Form)
+        self.P_or_N_Button.setObjectName(_fromUtf8("P_or_N_Button"))
+        self.gridLayout.addWidget(self.P_or_N_Button, 0, 3, 1, 1)
+        self.AC_Button = QtGui.QPushButton(Form)
+        self.AC_Button.setObjectName(_fromUtf8("AC_Button"))
+        self.gridLayout.addWidget(self.AC_Button, 0, 2, 1, 1)
+        self.Zero_Button = QtGui.QPushButton(Form)
+        self.Zero_Button.setObjectName(_fromUtf8("Zero_Button"))
+        self.gridLayout.addWidget(self.Zero_Button, 4, 2, 1, 2)
         self.verticalLayout_2.addLayout(self.gridLayout)
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
-        Form.setWindowTitle(_translate("Form", "Form", None))
-        self.pushButton_12.setText(_translate("Form", "+", None))
-        self.pushButton_10.setText(_translate("Form", "9", None))
-        self.pushButton_7.setText(_translate("Form", "6", None))
-        self.pushButton_4.setText(_translate("Form", "3", None))
-        self.pushButton_13.setText(_translate("Form", "-", None))
-        self.pushButton_8.setText(_translate("Form", "7", None))
-        self.pushButton_11.setText(_translate("Form", ".", None))
-        self.pushButton_5.setText(_translate("Form", "4", None))
-        self.pushButton_2.setText(_translate("Form", "1", None))
-        self.pushButton_6.setText(_translate("Form", "5", None))
-        self.pushButton_3.setText(_translate("Form", "2", None))
-        self.pushButton_9.setText(_translate("Form", "8", None))
-        self.pushButton_14.setText(_translate("Form", "*", None))
-        self.pushButton_15.setText(_translate("Form", "/", None))
-        self.pushButton_16.setText(_translate("Form", "=", None))
-        self.pushButton_17.setText(_translate("Form", "%", None))
-        self.pushButton_18.setText(_translate("Form", "+/-", None))
-        self.pushButton_19.setText(_translate("Form", "AC", None))
-        self.pushButton.setText(_translate("Form", "0", None))
+        Form.setWindowTitle(_translate("Form", "Simple Calculator", None))
+        self.Plus_Button.setText(_translate("Form", "+", None))
+        self.Plus_Button.clicked.connect(self.pressplus)
+
+        self.Nine_Button.setText(_translate("Form", "9", None))
+        self.Nine_Button.clicked.connect(self.pressnine)
+
+        self.Six_Button.setText(_translate("Form", "6", None))
+        self.Six_Button.clicked.connect(self.presssix)
+
+        self.Three_Button.setText(_translate("Form", "3", None))
+        self.Three_Button.clicked.connect(self.pressthree)
+
+        self.Minus_Button.setText(_translate("Form", "-", None))
+        self.Minus_Button.clicked.connect(self.pressminus)
+
+        self.Seven_Button.setText(_translate("Form", "7", None))
+        self.Seven_Button.clicked.connect(self.pressseven)
+
+        self.Point_Button.setText(_translate("Form", ".", None))
+        self.Point_Button.clicked.connect(self.presspoint)
+
+        self.Four_Button.setText(_translate("Form", "4", None))
+        self.Four_Button.clicked.connect(self.pressfour)
+
+        self.One_Button.setText(_translate("Form", "1", None))
+        self.One_Button.clicked.connect(self.pressone)
+
+        self.Five_Button.setText(_translate("Form", "5", None))
+        self.Five_Button.clicked.connect(self.pressfive)
+
+        self.Two_Button.setText(_translate("Form", "2", None))
+        self.Two_Button.clicked.connect(self.presstwo)
+
+        self.Eight_Button.setText(_translate("Form", "8", None))
+        self.Eight_Button.clicked.connect(self.presseight)
+
+        self.Times_Button.setText(_translate("Form", "*", None))
+        self.Times_Button.clicked.connect(self.presstimes)
+
+        self.Divide_Button.setText(_translate("Form", "/", None))
+        self.Divide_Button.clicked.connect(self.pressdivide)
+
+        self.Result_Button.setText(_translate("Form", "=", None))
+        self.Result_Button.clicked.connect(self.pressresult)
+
+        self.Percentage_Button.setText(_translate("Form", "%", None))
+        self.Percentage_Button.clicked.connect(self.presspercentage)
+
+        self.P_or_N_Button.setText(_translate("Form", "+/-", None))
+        self.P_or_N_Button.clicked.connect(self.pressPN)
+
+        self.AC_Button.setText(_translate("Form", "AC", None))
+        self.AC_Button.clicked.connect(self.pressAC)
+
+        self.Zero_Button.setText(_translate("Form", "0", None))
+        self.Zero_Button.clicked.connect(self.presszero)
+
+    display_number = ''
+    f_number = ''
+    s_number = ''
+    sign = ''
+
+    def pressone(self):
+        self.display_number += '1'
+
+    def presstwo(self):
+        self.display_number += '2'
+
+    def pressthree(self):
+        self.display_number += '3'
+
+    def pressfour(self):
+        self.display_number += '4'
+
+    def pressfive(self):
+        self.display_number += '5'
+
+    def presssix(self):
+        self.display_number += '6'
+
+    def pressseven(self):
+        self.display_number += '7'
+
+    def presseight(self):
+        self.display_number += '8'
+
+    def pressnine(self):
+        self.display_number += '9'
+
+    def presszero(self):
+        self.display_number += '0'
+
+    def presspoint(self):
+        self.display_number += '.'
+
+    def presspercentage(self):
+        self.display_number = str(float(self.display_number)/100)
+
+    def pressPN(self):
+        self.display_number = str(float(self.display_number)* -1)
+        
+if __name__ == "__main__":
+    import sys
+    app = QtGui.QApplication(sys.argv)
+    Form = QtGui.QWidget()
+    ui = Ui_Form()
+    ui.setupUi(Form)
+    Form.show()
+    sys.exit(app.exec_())
 
