@@ -165,43 +165,96 @@ class Ui_Form(object):
 
     def pressone(self):
         self.display_number += '1'
+        self.textBrowser.setText(self.display_number)
 
     def presstwo(self):
         self.display_number += '2'
+        self.textBrowser.setText(self.display_number)
 
     def pressthree(self):
         self.display_number += '3'
+        self.textBrowser.setText(self.display_number)
 
     def pressfour(self):
         self.display_number += '4'
+        self.textBrowser.setText(self.display_number)
 
     def pressfive(self):
         self.display_number += '5'
+        self.textBrowser.setText(self.display_number)
 
     def presssix(self):
         self.display_number += '6'
+        self.textBrowser.setText(self.display_number)
 
     def pressseven(self):
         self.display_number += '7'
+        self.textBrowser.setText(self.display_number)
 
     def presseight(self):
         self.display_number += '8'
+        self.textBrowser.setText(self.display_number)
 
     def pressnine(self):
         self.display_number += '9'
+        self.textBrowser.setText(self.display_number)
 
     def presszero(self):
         self.display_number += '0'
+        self.textBrowser.setText(self.display_number)
 
     def presspoint(self):
         self.display_number += '.'
+        self.textBrowser.setText(self.display_number)
 
     def presspercentage(self):
         self.display_number = str(float(self.display_number)/100)
+        self.textBrowser.setText(self.display_number)
 
     def pressPN(self):
         self.display_number = str(float(self.display_number)* -1)
-        
+        self.textBrowser.setText(self.display_number)
+
+    def pressAC(self):
+        self.display_number = ''
+        self.textBrowser.setText(self.display_number)
+
+    def pressplus(self):
+        self.sign = '+'
+        self.f_number = self.display_number
+        self.display_number = ''
+
+    def pressminus(self):
+        self.sign = '-'
+        self.f_number = self.display_number
+        self.display_number = ''
+
+    def presstimes(self):
+        self.sign = '*'
+        self.f_number = self.display_number
+        self.display_number = ''
+
+    def pressdivide(self):
+        self.sign = '/'
+        self.f_number = self.display_number
+        self.display_number = ''
+
+    def pressresult(self):
+        self.s_number = self.display_number
+        self.calculate()
+        self.display_number = self.result
+        self.textBrowser.setText(self.display_number)
+        self.display_number = ''
+
+    def calculate(self):
+        result = eval(str(float(self.f_number)) + self.sign + self.s_number)
+        if result.is_integer():
+            self.result = str(int(result))
+        elif result.is_integer() == False:
+            self.result = str(result)
+        else:
+            self.result = 'ERROR'
+
 if __name__ == "__main__":
     import sys
     app = QtGui.QApplication(sys.argv)
