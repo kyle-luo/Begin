@@ -19,11 +19,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random number guess.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Jewels and Stones.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -61,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Better splitting.py" />
         <option value="$PROJECT_DIR$/improve the index.py" />
         <option value="$PROJECT_DIR$/Counting Clicks.py" />
         <option value="$PROJECT_DIR$/add to index.py" />
@@ -112,6 +120,7 @@
         <option value="$PROJECT_DIR$/word crawler.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$PROJECT_DIR$/random number guess.py" />
+        <option value="$PROJECT_DIR$/Jewels and Stones.py" />
       </list>
     </option>
   </component>
@@ -181,8 +190,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.random number guess">
-    <configuration name="Elementary Cellular Automaton" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Jewels and Stones">
+    <configuration name="Jewels and Stones" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -194,7 +203,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Elementary Cellular Automaton.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Jewels and Stones.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,18 +298,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.scratch" />
-      <item itemvalue="Python.Elementary Cellular Automaton" />
       <item itemvalue="Python.scratch_1" />
       <item itemvalue="Python.word crawler" />
       <item itemvalue="Python.random number guess" />
+      <item itemvalue="Python.Jewels and Stones" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Jewels and Stones" />
         <item itemvalue="Python.random number guess" />
         <item itemvalue="Python.scratch" />
         <item itemvalue="Python.word crawler" />
         <item itemvalue="Python.scratch_1" />
-        <item itemvalue="Python.Elementary Cellular Automaton" />
       </list>
     </recent_temporary>
   </component>
@@ -319,6 +328,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -340,7 +350,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/latency.py" />
     <entry file="file://$PROJECT_DIR$/converting seconds.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -737,6 +746,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jewels and Stones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
         </state>
       </provider>
     </entry>
