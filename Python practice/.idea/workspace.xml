@@ -37,29 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Unique Morse Code Words.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Unique Email Addresses.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/N-Repeated Element in Size 2N Array.py">
+        <entry file="file://$PROJECT_DIR$/Two Sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="504">
+              <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -67,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="34">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -97,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/venv/word count.py" />
         <option value="$PROJECT_DIR$/venv/latency.py" />
         <option value="$PROJECT_DIR$/latency.py" />
         <option value="$PROJECT_DIR$/converting seconds.py" />
@@ -144,10 +125,11 @@
         <option value="$PROJECT_DIR$/word crawler.py" />
         <option value="$PROJECT_DIR$/random number guess.py" />
         <option value="$PROJECT_DIR$/Jewels and Stones.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$PROJECT_DIR$/Unique Morse Code Words.py" />
         <option value="$PROJECT_DIR$/Unique Email Addresses.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$PROJECT_DIR$/N-Repeated Element in Size 2N Array.py" />
+        <option value="$PROJECT_DIR$/Two Sum.py" />
       </list>
     </option>
   </component>
@@ -217,28 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.N-Repeated Element in Size 2N Array">
-    <configuration name="Jewels and Stones" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="just begin" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Jewels and Stones.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Two Sum">
     <configuration name="N-Repeated Element in Size 2N Array" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="just begin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -252,6 +213,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/N-Repeated Element in Size 2N Array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Two Sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="just begin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Two Sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,18 +307,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.scratch" />
-      <item itemvalue="Python.Jewels and Stones" />
       <item itemvalue="Python.Unique Morse Code Words" />
       <item itemvalue="Python.Unique Email Addresses" />
       <item itemvalue="Python.N-Repeated Element in Size 2N Array" />
+      <item itemvalue="Python.Two Sum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Two Sum" />
         <item itemvalue="Python.N-Repeated Element in Size 2N Array" />
         <item itemvalue="Python.scratch" />
         <item itemvalue="Python.Unique Email Addresses" />
         <item itemvalue="Python.Unique Morse Code Words" />
-        <item itemvalue="Python.Jewels and Stones" />
       </list>
     </recent_temporary>
   </component>
@@ -377,13 +359,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Frequency Analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/download calculator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -759,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Unique Morse Code Words.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -780,10 +748,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/N-Repeated Element in Size 2N Array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Two Sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
         </state>
       </provider>
     </entry>
