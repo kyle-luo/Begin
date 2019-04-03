@@ -63,3 +63,18 @@ def diStringMatchhh(S):
     return output + [low]
 
 print(diStringMatchhh('IDID'))
+
+
+def diStringMatchhhh(S):
+    l = 0
+    r = len(S)
+    for ch in S:
+        if ch == 'I':
+            yield l
+            l += 1
+        else:
+            yield r
+            r -= 1
+    yield l
+
+print(diStringMatchhhh('IDID'))
