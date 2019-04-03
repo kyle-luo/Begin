@@ -47,10 +47,3 @@ def hammingDistance(x,y):
 
 
 print(hammingDistance(93,73))
-
-
-def hammingDistance(x,y):
-    x = bin(x).replace('0b','')
-    y = bin(y).replace('0b','')
-    count = 0
-    for 
