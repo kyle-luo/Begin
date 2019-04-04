@@ -64,13 +64,7 @@ print(minDeletionSizee(["cba","daf","ghi"]))
 
 def minDeletionSizeee(A):
     count = 0
-    newlist = []
-    for x in A:
-        newlist.append(list(x))
-    newlist = zip(A)
-    for x in newlist:
-        print(''.join(x))
-        print(''.join(sorted(x)))
+    for x in zip(*A):
         if ''.join(x) != ''.join(sorted(x)):
             count += 1
     return count
