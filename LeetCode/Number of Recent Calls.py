@@ -21,3 +21,9 @@
 # Each test case will have at most 10000 calls to ping.
 # Each test case will call ping with strictly increasing values of t.
 # Each call to ping will have 1 <= t <= 10^9.
+
+class RecentCounter:
+
+    def __init__(self):
+
+    def ping(self, t):
