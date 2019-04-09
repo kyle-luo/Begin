@@ -195,14 +195,20 @@ class Ui_Form(object):
         self.textBrowser.setText(self.displaynum)
 
     def presspoint(self):
-        if checkmark:
-            self.displaynum += '.'
-            checkmark = len(self.displaynum) - 1
-            self.textBrowser.setText(self.displaynum)
-        else:
-            for x in self.displaynum[checkmark:]:
-                if x in self.symbols:
-                    
+        # checkmark = ''
+        # if checkmark == '':
+        #     self.displaynum += '.'
+        #     checkmark = len(self.displaynum) - 1
+        #     self.textBrowser.setText(self.displaynum)
+        # else:
+        #     for x in self.displaynum[checkmark:]:
+        #         if x == '.':
+        #             sign = 1
+        #     if sign != 1:
+        #         self.displaynum += '.'
+        #         checkmark = len(self.displaynum) - 1
+        #         self.textBrowser.setText(self.displaynum)
+
 
     # def presspercentage(self):
     #
