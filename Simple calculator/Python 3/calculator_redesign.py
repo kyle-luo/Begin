@@ -97,15 +97,15 @@ class Ui_Form(object):
 
         self.Three_Button.setText(_translate("Form", "3", None))
         self.Three_Button.clicked.connect(self.pressthree)
-        #
-        # self.Minus_Button.setText(_translate("Form", "-", None))
-        # self.Minus_Button.clicked.connect(self.pressminus)
+
+        self.Minus_Button.setText(_translate("Form", "-", None))
+        self.Minus_Button.clicked.connect(self.pressminus)
 
         self.Seven_Button.setText(_translate("Form", "7", None))
         self.Seven_Button.clicked.connect(self.pressseven)
 
-        # self.Point_Button.setText(_translate("Form", ".", None))
-        # self.Point_Button.clicked.connect(self.presspoint)
+        self.Point_Button.setText(_translate("Form", ".", None))
+        self.Point_Button.clicked.connect(self.presspoint)
 
         self.Four_Button.setText(_translate("Form", "4", None))
         self.Four_Button.clicked.connect(self.pressfour)
@@ -121,12 +121,12 @@ class Ui_Form(object):
 
         self.Eight_Button.setText(_translate("Form", "8", None))
         self.Eight_Button.clicked.connect(self.presseight)
-        #
-        # self.Times_Button.setText(_translate("Form", "*", None))
-        # self.Times_Button.clicked.connect(self.presstimes)
-        #
-        # self.Divide_Button.setText(_translate("Form", "/", None))
-        # self.Divide_Button.clicked.connect(self.pressdivide)
+
+        self.Times_Button.setText(_translate("Form", "*", None))
+        self.Times_Button.clicked.connect(self.presstimes)
+
+        self.Divide_Button.setText(_translate("Form", "/", None))
+        self.Divide_Button.clicked.connect(self.pressdivide)
 
         self.Result_Button.setText(_translate("Form", "=", None))
         self.Result_Button.clicked.connect(self.pressequalto)
@@ -194,9 +194,16 @@ class Ui_Form(object):
         self.displaynum += '0'
         self.textBrowser.setText(self.displaynum)
 
-    # def presspoint(self):
-    #
-    #
+    def presspoint(self):
+        if checkmark:
+            self.displaynum += '.'
+            checkmark = len(self.displaynum) - 1
+            self.textBrowser.setText(self.displaynum)
+        else:
+            for x in self.displaynum[checkmark:]:
+                if x in self.symbols:
+                    
+
     # def presspercentage(self):
     #
     #
@@ -213,16 +220,36 @@ class Ui_Form(object):
             self.displaynum += '+'
             self.textBrowser.setText(self.displaynum)
         else:
-            self.displaynum == str(self.result) + '+'
+            self.displaynum = str(self.result) + '+'
             self.textBrowser.setText(self.displaynum)
-    # def pressminus(self):
-    #
-    #
-    # def presstimes(self):
-    #
-    #
-    # def pressdivide(self):
+            self.result = ''
 
+    def pressminus(self):
+        if self.result == '':
+            self.displaynum += '-'
+            self.textBrowser.setText(self.displaynum)
+        else:
+            self.displaynum = str(self.result) + '-'
+            self.textBrowser.setText(self.displaynum)
+            self.result = ''
+
+    def presstimes(self):
+        if self.result == '':
+            self.displaynum += '*'
+            self.textBrowser.setText(self.displaynum)
+        else:
+            self.displaynum = str(self.result) + '*'
+            self.textBrowser.setText(self.displaynum)
+            self.result = ''
+
+    def pressdivide(self):
+        if self.result == '':
+            self.displaynum += '/'
+            self.textBrowser.setText(self.displaynum)
+        else:
+            self.displaynum = str(self.result) + '/'
+            self.textBrowser.setText(self.displaynum)
+            self.result = ''
 
     def pressequalto(self):
         self.result = eval(self.displaynum)
