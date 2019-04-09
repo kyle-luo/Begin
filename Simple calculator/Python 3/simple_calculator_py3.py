@@ -237,11 +237,11 @@ class Ui_Form(object):
             self.textBrowser.setText(self.display_number)
 
     def presspercentage(self):
-        self.display_number = self.intflo(float(self.display_number)/100)
+        self.display_number = self.intflo(float(self.display_number) / 100)
         self.textBrowser.setText(self.display_number)
 
     def pressPN(self):
-        self.display_number = self.intflo(float(self.display_number)* -1)
+        self.display_number = self.intflo(float(self.display_number) * -1)
         self.textBrowser.setText(self.display_number)
 
     def pressAC(self):
@@ -272,7 +272,6 @@ class Ui_Form(object):
                 self.s_number = ''
                 self.result = ''
                 self.display_number = ''
-
 
     def pressminus(self):
         if self.result == '':

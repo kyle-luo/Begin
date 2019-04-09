@@ -22,8 +22,10 @@
 # Each test case will call ping with strictly increasing values of t.
 # Each call to ping will have 1 <= t <= 10^9.
 
-class RecentCounter:
-
-    def __init__(self):
-
-    def ping(self, t):
+# class RecentCounter:
+#
+#     def __init__(self):
+#         self.coll = self.collections.deque(self)
+#     def ping(self, t):
+#         self.coll.append(t)
+#         while
