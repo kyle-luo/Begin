@@ -54,13 +54,53 @@ def numRookCaptures(board):
     Rpos = []
     for x in range(len(board)):
         if 'R' in board[x]:
-            Rpos.append([x])
-            Rpos.append([board[x].index('R')])
+            Rpos.append(x)
+            Rpos.append(board[x].index('R'))
             break
-    print(Rpos)
-    # check vertical up
+
+    count = 0
+
+    # check horizontal left
+    leftmark = Rpos[1]
+    while leftmark > 0:
+        leftmark -= 1
+        if board[Rpos[0]][leftmark] == 'B':
+            break
+        elif board[Rpos[0]][leftmark] == 'p':
+            count += 1
+            break
+
+    # check horizontal right
+    rightmark = Rpos[1]
+    while rightmark < len(board[0]) - 1:
+        rightmark += 1
+        if board[Rpos[0]][rightmark] == 'B':
+            break
+        elif board[Rpos[0]][rightmark] == 'p':
+            count += 1
+            break
+
+    #check vertical up
     upmark = Rpos[0]
     while upmark > 0:
-        
+        upmark -= 1
+        if board[upmark][Rpos[1]] == 'B':
+            break
+        elif board[upmark][Rpos[1]] == 'p':
+            count += 1
+            break
 
-numRookCaptures([[".",".",".",".",".",".",".","."],[".",".",".","p",",",".",".","."],[".","p",".","R",".",".",".","p"],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]])
+    # check vertical down
+    downmark = Rpos[0]
+    while downmark < len(board) - 1:
+        downmark += 1
+        if board[downmark][Rpos[1]] == 'B':
+            break
+        elif board[downmark][Rpos[1]] == 'p':
+            count += 1
+            break
+
+    return count
+
+
+print(numRookCaptures([[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".","R",".",".",".","p"],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]]))
