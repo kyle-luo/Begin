@@ -1,13 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="4bdc8e4e-c124-425e-be9c-3c88cc2ed965" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="4bdc8e4e-c124-425e-be9c-3c88cc2ed965" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/LeetCode/Available Captures for Rook.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Available Captures for Rook.py" afterDir="false" />
+    </list>
+>>>>>>> b527afe17c631ff92caecf1f33391a3c6b0467f4
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1084160238">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="481" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="324" />
+          <entry key="Scratch" value="157" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+>>>>>>> b527afe17c631ff92caecf1f33391a3c6b0467f4
   <component name="FavoritesManager">
     <favorites_list name="Python-Practice" />
   </component>
@@ -16,8 +56,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/Delete Columns to Make Sorted.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1139">
               <caret line="67" selection-start-line="67" selection-end-line="68" selection-end-column="22" />
+=======
+            <state relative-caret-position="179">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+              <folding>
+                <marker date="1554842157238" expanded="true" signature="1205:1515" ph="..." />
+              </folding>
+>>>>>>> b527afe17c631ff92caecf1f33391a3c6b0467f4
             </state>
           </provider>
         </entry>
@@ -43,8 +91,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python practice/Class test.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="504">
               <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+=======
+            <state relative-caret-position="38">
+              <caret line="24" selection-start-line="24" selection-end-line="44" selection-end-column="24" />
+>>>>>>> b527afe17c631ff92caecf1f33391a3c6b0467f4
             </state>
           </provider>
         </entry>
@@ -61,8 +114,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="34">
               <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+=======
+            <state relative-caret-position="426">
+              <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+>>>>>>> b527afe17c631ff92caecf1f33391a3c6b0467f4
             </state>
           </provider>
         </entry>
@@ -88,8 +146,8 @@
         <option value="$PROJECT_DIR$/Simple calculator/Python 3/simple_calculator_py3.py" />
         <option value="$PROJECT_DIR$/Simple calculator/Python 3/calculator_redesign.py" />
         <option value="$PROJECT_DIR$/Python practice/Class test.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$PROJECT_DIR$/LeetCode/Array Partition I.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$PROJECT_DIR$/LeetCode/Available Captures for Rook.py" />
       </list>
     </option>
@@ -285,8 +343,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Available Captures for Rook" />
-        <item itemvalue="Python.Array Partition I" />
         <item itemvalue="Python.scratch" />
+        <item itemvalue="Python.Array Partition I" />
         <item itemvalue="Python.Class test" />
         <item itemvalue="Python.calculator_redesign" />
       </list>
@@ -353,22 +411,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/Delete Columns to Make Sorted.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1139">
           <caret line="67" selection-start-line="67" selection-end-line="68" selection-end-column="22" />
+=======
+        <state relative-caret-position="179">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <marker date="1554842157238" expanded="true" signature="1205:1515" ph="..." />
+          </folding>
+>>>>>>> b527afe17c631ff92caecf1f33391a3c6b0467f4
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+=======
+        <state relative-caret-position="38">
+          <caret line="24" selection-start-line="24" selection-end-line="44" selection-end-column="24" />
+>>>>>>> b527afe17c631ff92caecf1f33391a3c6b0467f4
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/Available Captures for Rook.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="105">
           <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+=======
+        <state relative-caret-position="426">
+          <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+>>>>>>> b527afe17c631ff92caecf1f33391a3c6b0467f4
         </state>
       </provider>
     </entry>
