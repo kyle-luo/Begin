@@ -27,22 +27,27 @@ def numRookCaptures(board):
     for x in range(len(board)):
         if 'R' in board[x]:
             try:
-                Rpos[x] += [board[x].index('R')]
+                Rpos[x] = []
+                Rpos[x] += [a for a, b in enumerate(board[x]) if b == 'R']
             except KeyError:
-                Rpos[x] = [board[x].index('R')]
+                continue
         if 'B' in board[x]:
             try:
-                Bpos[x] += [board[x].index('B')]
+                Bpos[x] = []
+                Bpos[x] += [a for a, b in enumerate(board[x]) if b == 'B']
             except KeyError:
-                Bpos[x] = [board[x].index('B')]
+                continue
         if 'p' in board[x]:
             try:
-                ppos[x] += [board[x].index('p')]
+                ppos[x] = []
+                ppos[x] += [a for a, b in enumerate(board[x]) if b == 'p']
             except KeyError:
-                ppos[x] = [board[x].index('p')]
+                continue
+
     print(Rpos)
     print(ppos)
     print(Bpos)
-    
+    for x in Rpos:
+        print(x)
 
-numRookCaptures([[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".","R",".",".",".","p"],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]])
+numRookCaptures([[".",".",".",".",".",".",".","."],[".",".",".","p",",",".",".","."],[".","p",".","R",".",".",".","p"],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]])
