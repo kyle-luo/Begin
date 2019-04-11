@@ -22,32 +22,43 @@
 # Explanation:
 # The rook can capture the pawns at positions b5, d6 and f5.
 
+# def numRookCaptures(board):
+#     Rpos, ppos, Bpos, Rcap = {}, {}, {}, {}
+#     for x in range(len(board)):
+#         if 'R' in board[x]:
+#             try:
+#                 Rpos[x] = []
+#                 Rpos[x] += [a for a, b in enumerate(board[x]) if b == 'R']
+#             except KeyError:
+#                 continue
+#         # if 'B' in board[x]:
+#         #     try:
+#         #         Bpos[x] = []
+#         #         Bpos[x] += [a for a, b in enumerate(board[x]) if b == 'B']
+#         #     except KeyError:
+#         #         continue
+#         # if 'p' in board[x]:
+#         #     try:
+#         #         ppos[x] = []
+#         #         ppos[x] += [a for a, b in enumerate(board[x]) if b == 'p']
+#         #     except KeyError:
+#         #         continue
+#
+#     print(Rpos)
+#     print(ppos)
+#     print(Bpos)
+#     for x Rpos.items():
+
+
 def numRookCaptures(board):
-    Rpos, ppos, Bpos = {}, {}, {}
+    Rpos = []
     for x in range(len(board)):
         if 'R' in board[x]:
-            try:
-                Rpos[x] = []
-                Rpos[x] += [a for a, b in enumerate(board[x]) if b == 'R']
-            except KeyError:
-                continue
-        if 'B' in board[x]:
-            try:
-                Bpos[x] = []
-                Bpos[x] += [a for a, b in enumerate(board[x]) if b == 'B']
-            except KeyError:
-                continue
-        if 'p' in board[x]:
-            try:
-                ppos[x] = []
-                ppos[x] += [a for a, b in enumerate(board[x]) if b == 'p']
-            except KeyError:
-                continue
-
+            Rpos.append([x])
+            Rpos.append([board[x].index('R')])
+            break
     print(Rpos)
-    print(ppos)
-    print(Bpos)
-    for x in Rpos:
-        print(x)
+    # check vertical up
+    
 
 numRookCaptures([[".",".",".",".",".",".",".","."],[".",".",".","p",",",".",".","."],[".","p",".","R",".",".",".","p"],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]])
