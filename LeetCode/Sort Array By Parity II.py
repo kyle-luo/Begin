@@ -63,14 +63,19 @@ print(sortArrayByParityII([2,3]))
 print(sortArrayByParityII([4,1,1,0,1,0]))
 
 def sortArrayByParityII(A):
-    odd = 1
-    even = 0
-    result = [None]*len(A)
+    odd = []
+    even = []
     for x in A:
         if x % 2 == 0:
-            result[even] = x
-            even += 2
+            even.append(x)
         else:
-            result[odd] = x
-            odd += 2
+            odd.append(x)
+    ziped = zip(even, odd)
+    result = []
+    for x in ziped:
+        for y in x:
+            result.append(y)
     return result
+
+print(sortArrayByParityII([2,3]))
+print(sortArrayByParityII([4,1,1,0,1,0]))
