@@ -76,4 +76,4 @@ def sumEvenAfterQueries(A, queries):
         result.append(orgsum)
     return result
 
-print(sumEvenAfterQueries([1,2,3,4], [[1,0],[-3,1],[-4,0],[2,3]])) 
+print(sumEvenAfterQueries([1,2,3,4], [[1,0],[-3,1],[-4,0],[2,3]]))
