@@ -49,4 +49,4 @@ def smallestRangeI(A, K):
     res = max(A) - min(A)
     return res - K * 2 if res > K * 2 else 0
 
-print(smallestRangeI([0,10],2)) 
+print(smallestRangeI([0,10],2))
