@@ -12,11 +12,3 @@ def reverseWords(s):
     return newstring[:-1]
 
 print(reverseWords("Let's take LeetCode contest"))
-
-def reverseWords(s):
-    list = s.split(' ')
-    newstring = ''
-    for x in list:
-        for y in 
-        newstring += x[::-1] + ' '
-    return newstring[:-1]
