@@ -32,24 +32,30 @@ class LinkedList:
         while pre.next != None:
             count += 1
             pre = pre.next
-        print(count)
+        return count
 
     def generate(self, items):
         for x in items:
             LinkedList.append(self, x)
 
+    def get(self, index):
+        pre = self.head
+        for x in range(index):
+            pre = pre.next
+        return pre.item
 
 
-# ll = LinkedList()
-#
-# ll.append(1)
-# ll.append(2)
-# ll.append(3)
-# ll.append(4)
-# ll.append(5)
-#
-# ll.show()
-# ll.length()
+ll = LinkedList()
+
+ll.append(1)
+ll.append(2)
+ll.append(3)
+ll.append(4)
+ll.append(5)
+
+ll.show()
+ll.length()
+ll.get(1)
 #
 #
 # aa = LinkedList()

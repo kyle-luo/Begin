@@ -1,7 +1,3 @@
-import sys
-sys.path.append(r'C:\Users\tsjlk\OneDrive\Desktop\Github\Python-Practice\Python Data Structure')
-import LinkedList
-
 # Given a non-empty, singly linked list with head node head, return a middle node of linked list.
 #
 # If there are two middle nodes, return the second middle node.
@@ -21,14 +17,31 @@ import LinkedList
 # Output: Node 4 from this list (Serialization: [4,5,6])
 # Since the list has two middle nodes with values 3 and 4, we return the second one..
 
-# def middleNode(head):
-#     sort = sorted(head)
-#     index = int((len(head) - 1) / 2 + 0.5)
-#     return sort[index]
-#
-# print(middleNode())
+def middleNode(head):
+    pre = head
+    count = 0
+    while pre.next:
+        pre = pre.next
+        count += 1
+    result = head
+    for x in range(int(count / 2 + 0.5)):
+        result = result.next
+    return result
 
-list = [1,2,3,4,5,6]
-module = LinkedList.generate(list)
+
+def middleNode(head):
+    slow = fast = head
+    while fast and fast.next:
+        slow = slow.next
+        fast = fast.next.next
+    return slow
+
+
+def middleNode(head):
+    slow = fast = head
+    while fast and fast.next:
+        slow, fast = slow.next, fast.next.next
+    return slow
+
 
 
