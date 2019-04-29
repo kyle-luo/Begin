@@ -24,7 +24,7 @@
 # Explanation: The distances from (r0, c0) to other cells are: [0,1,1,2,2,3]
 # There are other answers that would also be accepted as correct, such as [[1,2],[1,1],[0,2],[1,0],[0,1],[0,0]].
 
-def allCellsDistOrder(R, C, r0, c0):
+def allCellsDistOrder(R, C, r0, c0):            #wrong answer since not sorted
     result = [[] for x in range(R * C)]
     count = 0
     for x in range(R):
