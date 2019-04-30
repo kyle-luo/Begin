@@ -20,4 +20,25 @@ def shortestToChar(S, C):
                 output.append(next_dis)
     return output
 
+print(shortestToChar("loveleetcode",'e'))
 print(shortestToChar("aaba","b"))
+
+
+def shortestToChar(S, C):
+    output = ['' for _ in range(len(S))]
+    last_C = -len(S)
+    for i in range(len(S)):
+        if S[i] == C:
+            output[i] = 0
+            last_C = i
+        else:
+            next_dis = S[i:].find(C)
+            if i - last_C < next_dis or next_dis < 0:
+                output[i] = (i - last_C)
+            else:
+                output[i] = (next_dis)
+    return output
+
+print(shortestToChar("loveleetcode",'e'))
+print(shortestToChar("aaba","b"))
+
