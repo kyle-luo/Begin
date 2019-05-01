@@ -44,16 +44,35 @@ print(numberOfLines([4,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,
 
 
 def numberOfLines(widths, S):
+    dic = {}
+    for x in range(97, 97+26):
+        dic[chr(x)] = widths[x - 97]
     output = [1, 0]
     for char in S:
-        output[1] += widths[ord(char) - 97]
+        output[1] += dic[char]
         if output[1] >= 100:
             output[0] += 1
             if output[1] > 100:
-                output[1] = widths[ord(char) - 97]
+                output[1] = dic[char]
             elif output[1] == 100:
                 output[1] = 0
     return output
+
+print(numberOfLines([10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], "abcdefghijklmnopqrstuvwxyz"))
+print(numberOfLines([4,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], "bbbcccdddaaa"))
+
+
+def numberOfLines(widths, S):
+    line, length = 1, 0
+    for char in S:
+        length += widths[ord(char) - 97]
+        if length >= 100:
+            line += 1
+            if length > 100:
+                length = widths[ord(char) - 97]
+            elif length == 100:
+                length = 0
+    return line, length
 
 print(numberOfLines([10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], "abcdefghijklmnopqrstuvwxyz"))
 print(numberOfLines([4,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], "bbbcccdddaaa"))
