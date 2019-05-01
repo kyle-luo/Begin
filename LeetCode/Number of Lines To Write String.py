@@ -42,3 +42,18 @@ def numberOfLines(widths, S):
 print(numberOfLines([10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], "abcdefghijklmnopqrstuvwxyz"))
 print(numberOfLines([4,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], "bbbcccdddaaa"))
 
+
+def numberOfLines(widths, S):
+    output = [1, 0]
+    for char in S:
+        output[1] += widths[ord(char) - 97]
+        if output[1] >= 100:
+            output[0] += 1
+            if output[1] > 100:
+                output[1] = widths[ord(char) - 97]
+            elif output[1] == 100:
+                output[1] = 0
+    return output
+
+print(numberOfLines([10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], "abcdefghijklmnopqrstuvwxyz"))
+print(numberOfLines([4,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], "bbbcccdddaaa"))
