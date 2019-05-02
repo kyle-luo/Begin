@@ -31,12 +31,9 @@ def numberOfLines(widths, S):
     output = [1, 0]
     for char in S:
         output[1] += widths[ord(char) - 97]
-        if output[1] >= 100:
+        if output[1] > 100:
             output[0] += 1
-            if output[1] > 100:
-                output[1] = widths[ord(char) - 97]
-            elif output[1] == 100:
-                output[1] = 0
+            output[1] = widths[ord(char) - 97]
     return output
 
 print(numberOfLines([10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], "abcdefghijklmnopqrstuvwxyz"))
@@ -50,12 +47,9 @@ def numberOfLines(widths, S):
     output = [1, 0]
     for char in S:
         output[1] += dic[char]
-        if output[1] >= 100:
+        if output[1] > 100:
             output[0] += 1
-            if output[1] > 100:
-                output[1] = dic[char]
-            elif output[1] == 100:
-                output[1] = 0
+            output[1] = dic[char]
     return output
 
 print(numberOfLines([10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], "abcdefghijklmnopqrstuvwxyz"))
@@ -66,12 +60,9 @@ def numberOfLines(widths, S):
     line, length = 1, 0
     for char in S:
         length += widths[ord(char) - 97]
-        if length >= 100:
+        if length > 100:
             line += 1
-            if length > 100:
-                length = widths[ord(char) - 97]
-            elif length == 100:
-                length = 0
+            length = widths[ord(char) - 97]
     return line, length
 
 print(numberOfLines([10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10], "abcdefghijklmnopqrstuvwxyz"))
