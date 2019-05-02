@@ -34,6 +34,7 @@ class BST:
             self._print_tree(self.root)
         else:
             print("BST is not built yet.")
+            return None
 
     def _print_tree(self, cur_node):
         if cur_node.left is not None:
@@ -62,6 +63,7 @@ class BST:
             return False
 
 
+
 new = BST()
 
 new.insert(1)
@@ -71,6 +73,8 @@ new.insert(4)
 new.insert(5)
 
 new.print_tree()
+
+print(new.sum())
 
 print(new.search(1))
 print(new.search(3))
