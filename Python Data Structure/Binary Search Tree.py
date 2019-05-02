@@ -47,21 +47,23 @@ class BST:
 
     def search(self, value):
         if value != self.root.value:
-            self._search(value, self.root)
+            return self._search(value, self.root)
         else:
             return True
 
     def _search(self, value, cur_node):
         if value == cur_node.value:
             return True
-        elif value < cur_node.value:
-            self._search(value, cur_node.left)
-        elif value > cur_node.value:
-            self._search(value, cur_node.right)
+        elif value < cur_node.value and cur_node.left is not None:
+            return self._search(value, cur_node.left)
+        elif value > cur_node.value and cur_node.right is not None:
+            return self._search(value, cur_node.right)
         else:
             return False
 
+
 new = BST()
+
 new.insert(1)
 new.insert(2)
 new.insert(3)
@@ -72,4 +74,4 @@ new.print_tree()
 
 print(new.search(1))
 print(new.search(3))
-print(new.search(5))
+print(new.search(6))
