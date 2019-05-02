@@ -32,3 +32,18 @@ class Solution:
                 s(cur.right)
         s(root)
         return self.su
+
+
+class Solution:
+    def rangeSumBST(self, root: TreeNode, L: int, R: int) -> int:
+        sum = 0
+        input = [root]
+        while input:
+            cur = input.pop()
+            if L <= cur.val <= R:
+                sum += cur.val
+            if cur.left is not None:
+                input.append(cur.left)
+            if cur.right is not None:
+                input.append(cur.right)
+        return sum
