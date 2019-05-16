@@ -24,16 +24,26 @@
 # Explanation: The distances from (r0, c0) to other cells are: [0,1,1,2,2,3]
 # There are other answers that would also be accepted as correct, such as [[1,2],[1,1],[0,2],[1,0],[0,1],[0,0]].
 
-def allCellsDistOrder(R, C, r0, c0):            #wrong answer since not sorted
-    result = [[] for x in range(R * C)]
-    count = 0
+def allCellsDistOrder(R, C, r0, c0):
+    dic = {}
     for x in range(R):
         for y in range(C):
+            temp = []
             r = abs(r0 - x)
             c = abs(c0 - y)
-            result[count].append(r)
-            result[count].append(c)
-            count += 1
-    return result
+            temp.append(x)
+            temp.append(y)
+            total = r + c
+            try:
+                dic[total].append(temp)
+            except:
+                dic[total] = []
+                dic[total].append(temp)
+    order = list(dic)
+    order.sort()
+    output = []
+    for num in order:
+        output += dic[num]
+    return output
 
 print(allCellsDistOrder(2,2,0,1))
