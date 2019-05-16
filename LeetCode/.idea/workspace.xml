@@ -62,7 +62,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Subdomain Visit Count.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="28" column="29" lean-forward="true" selection-end-line="43" selection-end-column="26" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -416,7 +420,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Subdomain Visit Count.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="28" column="29" lean-forward="true" selection-end-line="43" selection-end-column="26" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
