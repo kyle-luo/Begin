@@ -52,39 +52,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/N-ary Tree Preorder Traversal.py">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="170">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Maximum Depth of N-ary Tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/N-Repeated Element in Size 2N Array.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Subdomain Visit Count.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -109,13 +87,15 @@
         <option value="$PROJECT_DIR$/Merge Two Binary Trees.py" />
         <option value="$PROJECT_DIR$/Self Dividing Numbers.py" />
         <option value="$PROJECT_DIR$/Delete Columns to Make Sorted.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" />
         <option value="$PROJECT_DIR$/Peak Index in a Mountain Array.py" />
         <option value="$PROJECT_DIR$/N-Repeated Element in Size 2N Array.py" />
         <option value="$PROJECT_DIR$/Number of Recent Calls.py" />
         <option value="$PROJECT_DIR$/Leaf-Similar Trees.py" />
         <option value="$PROJECT_DIR$/N-ary Tree Preorder Traversal.py" />
         <option value="$PROJECT_DIR$/Maximum Depth of N-ary Tree.py" />
+        <option value="$PROJECT_DIR$/N-ary Tree Postorder Traversal.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" />
+        <option value="$PROJECT_DIR$/Subdomain Visit Count.py" />
       </list>
     </option>
   </component>
@@ -174,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.N-Repeated Element in Size 2N Array">
+  <component name="RunManager" selected="Python.scratch_3">
     <configuration name="Delete Columns to Make Sorted" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -282,9 +262,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.scratch_3" />
         <item itemvalue="Python.N-Repeated Element in Size 2N Array" />
         <item itemvalue="Python.Peak Index in a Mountain Array" />
-        <item itemvalue="Python.scratch_3" />
         <item itemvalue="Python.Delete Columns to Make Sorted" />
         <item itemvalue="Python.Self Dividing Numbers" />
       </list>
@@ -312,7 +292,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,13 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Peak Index in a Mountain Array.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -407,10 +380,17 @@
     <entry file="file://$PROJECT_DIR$/Array Partition I.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leaf-Similar Trees.py">
+    <entry file="file://$PROJECT_DIR$/N-ary Tree Postorder Traversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maximum Depth of N-ary Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -421,12 +401,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Maximum Depth of N-ary Tree.py">
+    <entry file="file://$PROJECT_DIR$/Leaf-Similar Trees.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="442">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Subdomain Visit Count.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
