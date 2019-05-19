@@ -16,6 +16,6 @@ print(a)
 
 b = []
 for x in range(10000):
-    b.append(random.randint(1, 100000))
+    b.append(random.randint(1, 10000))
 selection_sort(b)
 print(b)
