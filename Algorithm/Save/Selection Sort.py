@@ -1,6 +1,7 @@
 import random
 
-def merge_sort(nums):
+
+def selection_sort(nums):
     for i in range(len(nums)):
         min = i
         for j in range(i + 1, len(nums)):
@@ -8,15 +9,13 @@ def merge_sort(nums):
                 min = j
         nums[i], nums[min] = nums[min], nums[i]
 
+
 a = [1,564,7,9,79,7,4567,2,31,7,977,98,]
-
-merge_sort(a)
-
+selection_sort(a)
 print(a)
 
 b = []
 for x in range(10000):
     b.append(random.randint(1, 100000))
-
-merge_sort(b)
+selection_sort(b)
 print(b)
