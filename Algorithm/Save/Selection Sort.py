@@ -1,21 +1,23 @@
 import random
 
+class selection_sort:
+    def sort(self, nums):
+        for i in range(len(nums)):
+            min = i
+            for j in range(i + 1, len(nums)):
+                if nums[j] < nums[min]:
+                    min = j
+            nums[i], nums[min] = nums[min], nums[i]
 
-def selection_sort(nums):
-    for i in range(len(nums)):
-        min = i
-        for j in range(i + 1, len(nums)):
-            if nums[j] < nums[min]:
-                min = j
-        nums[i], nums[min] = nums[min], nums[i]
 
+selection = selection_sort()
 
 a = [1,564,7,9,79,7,4567,2,31,7,977,98,]
-selection_sort(a)
+selection.sort(a)
 print(a)
 
 b = []
 for x in range(10000):
     b.append(random.randint(1, 10000))
-selection_sort(b)
+selection.sort(b)
 print(b)
