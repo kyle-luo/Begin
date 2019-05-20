@@ -1,7 +1,6 @@
 import random
 import time
 
-
 class QuickSort:
     def sort(self, A):
         self._sort(A, 0, len(A) - 1)
@@ -22,6 +21,17 @@ class QuickSort:
                 A[i], A[j] = A[j], A[i]
         A[l], A[j] = A[j], A[l]
         return j
+        # mid = int((r - l) / 2)
+        # if A[l] <= A[mid] <= A[r] or A[r] <= A[mid] <= A[l]:
+        #     j = mid
+        # elif A[mid] <= A[l] <= A[r] or A[r] <= A[l] <= A[mid]:
+        #     j = l
+        # else:
+        #     j = r
+        # pivot = A[j]
+        # for i in range(l + 1, r + 1):
+        #     if A[i] <= pivot:
+
 
 
 quick = QuickSort()
