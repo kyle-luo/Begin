@@ -21,6 +21,7 @@ class QuickSort:
                 j += 1
                 A[i], A[j] = A[j], A[i]
         A[l], A[j] = A[j], A[l]
+
         return j
 
 
@@ -31,18 +32,14 @@ quick.sort(a)
 print(a)
 
 
-b = []
-for x in range(1000000):
-    b.append(random.randint(1, 10000))
+b = [random.randint(1, 10000) for x in range(1000000)]
 start = time.time()
 quick.sort(b)
 end = time.time()
 print("Quick sort time: " + str(end - start))
 
-b = []
-for x in range(1000000):
-    b.append(random.randint(1, 10000))
+b = [random.randint(1, 10000) for x in range(1000000)]
 start = time.time()
 b.sort()
 end = time.time()
-print("Tim sort time: " + str(end - start))
+print("Tim sort time:   " + str(end - start))
