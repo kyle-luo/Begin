@@ -1,6 +1,6 @@
 import random
 
-class selection_sort:
+class SelectionSort:
     def sort(self, nums):
         for i in range(len(nums)):
             min = i
@@ -10,7 +10,7 @@ class selection_sort:
             nums[i], nums[min] = nums[min], nums[i]
 
 
-selection = selection_sort()
+selection = SelectionSort()
 
 a = [1,564,7,9,79,7,4567,2,31,7,977,98,]
 selection.sort(a)

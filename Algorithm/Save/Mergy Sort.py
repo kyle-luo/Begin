@@ -1,7 +1,7 @@
 import random
 
 
-class merge_sort:
+class MergeSort:
     def sort(self, a):
         if len(a) == 1:
             return a
@@ -24,14 +24,14 @@ class merge_sort:
         return output
 
 
-merge = merge_sort()
+merge = MergeSort()
 
 a = [1,564,7,9,79,7,4567,2,31,7,977,98,]
 a = merge.sort(a)
 print(a)
 
 b = []
-for x in range(10000):
+for x in range(100000):
     b.append(random.randint(1, 10000))
 b = merge.sort(b)
 print(b)
