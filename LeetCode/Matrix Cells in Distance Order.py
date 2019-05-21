@@ -46,4 +46,23 @@ def allCellsDistOrder(R, C, r0, c0):
         output += dic[num]
     return output
 
+
+def allCellsDistOrder2(R, C, r0, c0):
+    dic = {}
+    for x in range(R):
+        for y in range(C):
+            temp = [x, y]
+            total = abs(r0 - x) + abs(c0 - y)
+            try:
+                dic[total].append(temp)
+            except:
+                dic[total] = []
+                dic[total].append(temp)
+    order = sorted(list(dic))
+    output = []
+    for num in order:
+        output += (dic[num])
+    return output
+
+
 print(allCellsDistOrder(2,2,0,1))
