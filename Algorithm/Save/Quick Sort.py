@@ -20,7 +20,9 @@ class QuickSort:
             if A[i] <= pivot:
                 j += 1
                 A[i], A[j] = A[j], A[i]
+                print(A)
         A[l], A[j] = A[j], A[l]
+        print(A)
 
         return j
 
@@ -32,14 +34,14 @@ quick.sort(a)
 print(a)
 
 
-b = [random.randint(1, 10000) for x in range(1000000)]
-start = time.time()
-quick.sort(b)
-end = time.time()
-print("Quick sort time: " + str(end - start))
-
-b = [random.randint(1, 10000) for x in range(1000000)]
-start = time.time()
-b.sort()
-end = time.time()
-print("Tim sort time:   " + str(end - start))
+# b = [random.randint(1, 10000) for x in range(1000000)]
+# start = time.time()
+# quick.sort(b)
+# end = time.time()
+# print("Quick sort time: " + str(end - start))
+#
+# b = [random.randint(1, 10000) for x in range(1000000)]
+# start = time.time()
+# b.sort()
+# end = time.time()
+# print("Tim sort time:   " + str(end - start))
