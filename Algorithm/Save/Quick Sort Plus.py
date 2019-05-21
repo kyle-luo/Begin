@@ -23,6 +23,7 @@ class QuickSortPlus:
         pivot = A[j]
         small = None
         big = None
+        print(pivot)
         while l != j and r != j:
             while big is None and l != j:
                 if A[l] > pivot:
@@ -40,6 +41,7 @@ class QuickSortPlus:
             big = None
             print(A)
         if r > j:
+            print("r")
             start = j
             for i in range(start + 1, r + 1):
                 if A[i] <= pivot:
@@ -48,9 +50,10 @@ class QuickSortPlus:
                     print(A)
             A[start], A[j] = A[j], A[start]
             print(A)
-        if l > j:
+        if l < j:
+            print("l")
             end = j
-            for i in range(l, end):
+            for i in reversed(range(l, end)):
                 if A[i] >= pivot:
                     j -= 1
                     A[i], A[j] = A[j], A[i]
