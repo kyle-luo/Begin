@@ -1,6 +1,6 @@
 def binary_search(key, low, high, count):
     if high < low:
-        return low - 1
+        return -1
     mid = low + int((high - low)/2)
     if key == mid:
         return mid
