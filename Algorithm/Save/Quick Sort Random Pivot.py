@@ -1,7 +1,7 @@
 import random
 import time
 
-class QuickSortPlus:
+class QuickSortRandomPivot:
     def sort(self, A):
         self._sort(A, 0, len(A) - 1)
 
@@ -31,7 +31,7 @@ class QuickSortPlus:
         return j
 
 
-quick = QuickSortPlus()
+quick = QuickSortRandomPivot()
 
 while True:
     a = [random.randint(1, 1000) for x in range(10)]
