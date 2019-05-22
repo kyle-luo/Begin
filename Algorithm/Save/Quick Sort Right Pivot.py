@@ -1,4 +1,3 @@
-
 import random
 import time
 
@@ -21,18 +20,30 @@ class QuickSort:
             if A[i] >= pivot:
                 j -= 1
                 A[i], A[j] = A[j], A[i]
-                print(A)
         A[r], A[j] = A[j], A[r]
-        print(A)
-
         return j
 
 
 quick = QuickSort()
 
-a = [76, 92, 41, 29, 91, 9, 6, 99, 90, 89]
-quick.sort(a)
-print(a)
+
+while True:
+    a = [random.randint(1, 1000) for x in range(10)]
+    b = a
+    c = a
+    quick.sort(b)
+    c.sort()
+    if b == c:
+        print("ok")
+    else:
+        print("failed")
+        print(b)
+        print(c)
+        break
+
+# a = [76, 92, 41, 29, 91, 9, 6, 99, 90, 89]
+# quick.sort(a)
+# print(a)
 
 
 # b = [random.randint(1, 10000) for x in range(1000000)]

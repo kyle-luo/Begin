@@ -23,7 +23,6 @@ class QuickSortPlus:
         pivot = A[j]
         small = None
         big = None
-        print(pivot)
         while l != j and r != j:
             while big is None and l != j:
                 if A[l] > pivot:
@@ -39,27 +38,42 @@ class QuickSortPlus:
                 break
             small = None
             big = None
-            print(A)
-        if r > j:
-            print("r")
-            start = j
-            for i in range(start + 1, r + 1):
-                if A[i] <= pivot:
-                    j += 1
-                    A[i], A[j] = A[j], A[i]
-                    print(A)
-            A[start], A[j] = A[j], A[start]
-            print(A)
-        if l < j:
-            print("l")
-            end = j
-            for i in reversed(range(l, end)):
-                if A[i] >= pivot:
-                    j -= 1
-                    A[i], A[j] = A[j], A[i]
-                    print(A)
-            A[end], A[j] = A[j], A[end]
-            print(A)
+        if big is None:
+            if r > j:
+                start = j
+                for i in range(start + 1, r + 1):
+                    if A[i] <= pivot:
+                        j += 1
+                        A[i], A[j] = A[j], A[i]
+                        print(A)
+                A[start], A[j] = A[j], A[start]
+        else:
+            if big > j:
+                start = j
+                for i in range(start + 1, r + 1):
+                    if A[i] <= pivot:
+                        j += 1
+                        A[i], A[j] = A[j], A[i]
+                        print(A)
+                A[start], A[j] = A[j], A[start]
+        if small is None:
+            if l < j:
+                end = j
+                for i in reversed(range(l, end)):
+                    if A[i] >= pivot:
+                        j -= 1
+                        A[i], A[j] = A[j], A[i]
+                        print(A)
+                A[end], A[j] = A[j], A[end]
+        else:
+            if small < j:
+                end = j
+                for i in reversed(range(l, end)):
+                    if A[i] >= pivot:
+                        j -= 1
+                        A[i], A[j] = A[j], A[i]
+                        print(A)
+                A[end], A[j] = A[j], A[end]
         return j
 
 

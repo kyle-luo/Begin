@@ -20,18 +20,29 @@ class QuickSort:
             if A[i] <= pivot:
                 j += 1
                 A[i], A[j] = A[j], A[i]
-                print(A)
         A[l], A[j] = A[j], A[l]
-        print(A)
-
         return j
 
 
 quick = QuickSort()
 
-a = [100,564,7,9,79,50,4567,2,31,7,977,98]
-quick.sort(a)
-print(a)
+while True:
+    a = [random.randint(1, 1000) for x in range(10)]
+    b = a
+    c = a
+    quick.sort(b)
+    c.sort()
+    if b == c:
+        print("ok")
+    else:
+        print("failed")
+        print(b)
+        print(c)
+        break
+
+# a = [100,564,7,9,79,50,4567,2,31,7,977,98]
+# quick.sort(a)
+# print(a)
 
 
 # b = [random.randint(1, 10000) for x in range(1000000)]
