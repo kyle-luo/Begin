@@ -4,6 +4,15 @@ import sys
 def binary_search(a, x):
     left, right = 0, len(a)
     # write your code here
+    while left <= right:
+        mid = int((right - left)/2)
+        if a[mid] == x:
+            return mid
+        elif a[mid] > x:
+            right -= 1
+        else:
+            left += 1
+    return -1
 
 def linear_search(a, x):
     for i in range(len(a)):
