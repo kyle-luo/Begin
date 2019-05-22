@@ -1,7 +1,7 @@
 import random
 import time
 
-class QuickSortRandomPivot:
+class QuickSortP3:
     def sort(self, A):
         self._sort(A, 0, len(A) - 1)
 
@@ -31,21 +31,21 @@ class QuickSortRandomPivot:
         return j
 
 
-quick = QuickSortRandomPivot()
+quick = QuickSortP3()
 
-while True:
-    a = [random.randint(1, 1000) for x in range(10)]
-    b = a
-    c = a
-    quick.sort(b)
-    c.sort()
-    if b == c:
-        print("ok")
-    else:
-        print("failed")
-        print(b)
-        print(c)
-        break
+# while True:
+#     a = [random.randint(1, 1000) for x in range(10)]
+#     b = a
+#     c = a
+#     quick.sort(b)
+#     c.sort()
+#     if b == c:
+#         print("ok")
+#     else:
+#         print("failed")
+#         print(b)
+#         print(c)
+#         break
 
 # a = [100,564,7,9,79,99,4567,2,31,7,977,98]
 # quick.sort(a)
@@ -56,15 +56,14 @@ while True:
 # quick.sort(a)
 # print(a)
 
-# a = [random.randint(1, 10000) for x in range(1000000)]
-# b = a
-# c = a
-# start = time.time()
-# quick.sort(b)
-# end = time.time()
-# print("Quick sort time: " + str(end - start))
-#
-# start = time.time()
-# c.sort()
-# end = time.time()
-# print("Tim sort time:   " + str(end - start))
+b = [random.randint(1, 10000) for x in range(1000000)]
+start = time.time()
+quick.sort(b)
+end = time.time()
+print("Quick sort time: " + str(end - start))
+
+b = [random.randint(1, 10000) for x in range(1000000)]
+start = time.time()
+b.sort()
+end = time.time()
+print("Tim sort time: " + str(end - start))

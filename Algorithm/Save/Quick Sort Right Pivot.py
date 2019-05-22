@@ -27,33 +27,34 @@ class QuickSort:
 quick = QuickSort()
 
 
-while True:
-    a = [random.randint(1, 1000) for x in range(10)]
-    b = a
-    c = a
-    quick.sort(b)
-    c.sort()
-    if b == c:
-        print("ok")
-    else:
-        print("failed")
-        print(b)
-        print(c)
-        break
+# while True:
+#     a = [random.randint(1, 1000) for x in range(10)]
+#     b = a
+#     c = a
+#     quick.sort(b)
+#     c.sort()
+#     if b == c:
+#         print("ok")
+#     else:
+#         print("failed")
+#         print(b)
+#         print(c)
+#         break
 
 # a = [76, 92, 41, 29, 91, 9, 6, 99, 90, 89]
 # quick.sort(a)
 # print(a)
 
 
-# b = [random.randint(1, 10000) for x in range(1000000)]
-# start = time.time()
-# quick.sort(b)
-# end = time.time()
-# print("Quick sort time: " + str(end - start))
-#
-# b = [random.randint(1, 10000) for x in range(1000000)]
-# start = time.time()
-# b.sort()
-# end = time.time()
-# print("Tim sort time:   " + str(end - start))
+a = [random.randint(1, 10000) for x in range(1000000)]
+b = a
+c = a
+start = time.time()
+quick.sort(b)
+end = time.time()
+print("Quick sort time: " + str(end - start))
+
+start = time.time()
+c.sort()
+end = time.time()
+print("Tim sort time:   " + str(end - start))
