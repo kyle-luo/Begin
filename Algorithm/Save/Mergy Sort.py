@@ -8,8 +8,7 @@ class MergeSort:
         m = int(len(a)/2)
         b = self.sort(a[:m])
         c = self.sort(a[m:])
-        new_a = self.merge(b, c)
-        return new_a
+        return self.merge(b, c)
 
     def merge(self, b, c):
         output = []
