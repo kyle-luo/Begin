@@ -26,7 +26,7 @@ class MergeSort:
 
 merge = MergeSort()
 
-a = [1,564,7,9,79,7,4567,2,31,7,977,98,]
+a = [1,564,7,9,79,7,4567,2,31,7,977,98]
 a = merge.sort(a)
 print(a)
 
