@@ -9,7 +9,9 @@ def get_number_of_inversions(a, b, left, right):
     number_of_inversions += get_number_of_inversions(a, b, left, ave)
     number_of_inversions += get_number_of_inversions(a, b, ave, right)
     #write your code here
+
     return number_of_inversions
+
 
 def check(a):
     count = 0
@@ -21,7 +23,6 @@ def check(a):
                     count += 1
                 check -= 1
     return count
-
 
 
 if __name__ == '__main__':
