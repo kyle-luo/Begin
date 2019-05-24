@@ -35,6 +35,7 @@ def merge(a, b, m, l, r):
         b[cur] = a[j]
         j += 1
         cur += 1
+        count += 1
     return count
 
 
