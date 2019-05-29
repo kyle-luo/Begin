@@ -35,3 +35,17 @@ class Solution:
                 if key not in a:
                     output.append(key)
         return output
+
+
+class Solution2:
+    def uncommonFromSentences(self, A: str, B: str) -> List[str]:
+        a = {}
+        output = []
+        for x in A.split():
+            a[x] = a.get(x, 0) + 1
+        for x in B.split():
+            a[x] = a.get(x, 0) + 1
+        for key, val in a.items():
+            if val == 1:
+                output.append(key)
+        return output
