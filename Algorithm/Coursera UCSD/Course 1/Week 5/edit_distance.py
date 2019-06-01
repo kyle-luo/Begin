@@ -13,9 +13,20 @@ def edit_rec(s, t, i, j):
         b = edit_rec(s, t, i, j - 1) + 1
     if s[i - 1] == t[j] and i > 0:
         c = edit_rec(s, t, i - 1, j) + 1
-    if s[i - 1] != t[j - 1] and i > 0 and j > 0:
-        d = edit_rec(s, t, i - 1, j - 1) + 1
+    # if s[i - 1] != t[j - 1] and i > 0 and j > 0:
+    if i > 0 and j > 0:
+     d = edit_rec(s, t, i - 1, j - 1) + 1
     return min(a, b, c, d)
+
+def edit_dp(s, t):
+    rec = [[None for _ in range(len(t))]for _ in range(len(s))]
+    i = j = 0
+    while i < len(s) and j < len(t):
+        if s[i] == s[j]:
+            s
+
+
+
 
 if __name__ == "__main__":
     # print(edit_distance(input(), input()))
