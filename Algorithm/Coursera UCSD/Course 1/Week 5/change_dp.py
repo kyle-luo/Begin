@@ -3,7 +3,7 @@ import sys
 import time
 
 def get_change(m):
-    if 1 < m < 4:
+    if 1 <= m < 4:
         if m == 2:
             return 2
         else:
@@ -44,3 +44,6 @@ if __name__ == '__main__':
     # print(end1 - start)
     # print(get_change(m))
     # print(time.time() - end1)
+
+# for x in range(1, 10000):
+#     print(get_change(x))
