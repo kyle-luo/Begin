@@ -55,26 +55,29 @@ def optimal_sequence_dp(n):
 def optimal_sequence_dp2(n):
     rec = [None for _ in range(n + 1)]
     rec[1] = 0
-    rec[2] = 1
-    rec[3] = 1
-    for i in range(4, n + 1):
-        a = b = i
-        if i % 3 == 0:
-            a = rec[i // 3] + 1
-        if i % 2 == 0:
-            b = rec[i // 2] + 1
-        c = rec[i - 1] + 1
-        rec[i] = min(a, b, c)
+    if n > 1:
+        rec[2] = 1
+    if n > 2:
+        rec[3] = 1
+    if n > 3:
+        for i in range(4, n + 1):
+            a = b = i
+            if i % 3 == 0:
+                a = rec[i // 3] + 1
+            if i % 2 == 0:
+                b = rec[i // 2] + 1
+            c = rec[i - 1] + 1
+            rec[i] = min(a, b, c)
     seq = []
     num = n
     while num > 1:
-        seq.append(num)
         if n == 2:
             seq.append(2)
             break
         elif n == 3:
             seq.append(3)
             break
+        seq.append(num)
         if num % 3 == 0:
             a = rec[num // 3] + 1
         if num % 2 == 0:
@@ -93,6 +96,7 @@ def optimal_sequence_dp2(n):
 
 input = sys.stdin.read()
 n = int(input)
+
 # sequence = list(optimal_sequence(n))
 # print(len(sequence) - 1)
 #
