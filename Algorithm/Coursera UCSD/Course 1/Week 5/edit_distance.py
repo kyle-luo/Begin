@@ -18,19 +18,31 @@ def edit_rec(s, t, i, j):
      d = edit_rec(s, t, i - 1, j - 1) + 1
     return min(a, b, c, d)
 
+
 def edit_dp(s, t):
-    rec = [[None for _ in range(len(t))]for _ in range(len(s))]
-    i = j = 0
-    while i < len(s) and j < len(t):
-        if s[i] == s[j]:
-            s
-
-
+    rec = [[None for _ in range(len(t) + 1)] for _ in range(len(s) + 1)]
+    for i in range(len(t) + 1):
+        rec[0][i] = i
+    for i in range(len(s) + 1):
+        rec[i][0] = i
+    for i in range(1, len(s) + 1):
+        for j in range(1, len(t) + 1):
+            if s[i - 1] == t[j - 1]:
+                rec[i][j] = rec[i - 1][j - 1]
+            else:
+                a = rec[i - 1][j] + 1
+                b = rec[i][j - 1] + 1
+                c = rec[i - 1][j - 1] + 1
+                rec[i][j] = min(a, b, c)
+    return rec[len(s)][len(t)]
 
 
 if __name__ == "__main__":
     # print(edit_distance(input(), input()))
     s, t = input(), input()
-    s = [None] + [x for x in s]
-    t = [None] + [x for x in t]
-    print(edit_rec(s, t, len(s) - 1, len(t) - 1))
+    # s = [None] + [x for x in s]
+    # t = [None] + [x for x in t]
+    s = [x for x in s]
+    t = [x for x in t]
+    # print(edit_rec(s, t, len(s) - 1, len(t) - 1))
+    print(edit_dp(s, t))
