@@ -46,3 +46,18 @@ class Solution:
                     if temp > max:
                         max = temp
         return max
+
+
+class Solution2:
+    def binaryGap(self, N: int) -> int:
+        num = bin(N)
+        max = 0
+        pre = num.find('1')
+        while True:
+            gap = num[pre + 1:].find('1') + 1
+            if gap == 0:
+                break
+            if gap > max:
+                max = gap
+            pre += gap
+        return max
