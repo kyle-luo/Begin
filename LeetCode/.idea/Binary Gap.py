@@ -61,3 +61,14 @@ class Solution2:
                 max = gap
             pre += gap
         return max
+
+
+class Solution3:
+    def binaryGap(self, N: int) -> int:
+        count = []
+        for i, j in enumerate(bin(N)):
+            if j == '1':
+                count.append(i)
+        if len(count) < 2:
+            return 0
+        return max(count[i] - count[i - 1] for i in range(1, len(count)))
