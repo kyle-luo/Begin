@@ -36,3 +36,14 @@ class Solution:
                 return False
             j += 2
         return True
+
+
+class Solution2:
+    def hasAlternatingBits(self, n: int) -> bool:
+        bi = bin(n)[2:]
+        pre = bi[0]
+        for i in range(1, len(bi)):
+            if bi[i] == pre:
+                return False
+            pre = bi[i]
+        return True
