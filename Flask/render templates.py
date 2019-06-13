@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 def hw():
     title = 'try render template'
-    return render_template('render template.html', title=title)
+    return render_template('render templates.html', title=title)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=3000)
+    app.run(debug=True)
 
