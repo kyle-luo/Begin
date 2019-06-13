@@ -7,7 +7,7 @@ bs = Bootstrap(app)
 
 @app.route('/')
 
-def hw():
+def go():
     title = 'render template'
     p = ['lao da', 'lao er', 'lao san']
     # return render_template('render templates.html')
