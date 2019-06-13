@@ -7,6 +7,7 @@ def hw():
     title = 'render template'
     p = ['lao da', 'lao er', 'lao san']
     # return render_template('render templates.html')
+    # return render_template('render templates.html', title=title)
     return render_template('render templates.html', title=title, data=p)
 
 if __name__ == '__main__':
