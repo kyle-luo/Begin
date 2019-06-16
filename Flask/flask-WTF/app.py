@@ -4,6 +4,8 @@ from flask_bootstrap import Bootstrap
 
 from config import Config
 
+from forms import RegisterForm
+
 app = Flask(__name__)
 
 bs = Bootstrap(app)
@@ -14,11 +16,14 @@ db = SQLAlchemy(app)
 @app.route('/')
 
 def go():
-    return render_template('nav.html')
+    return render_template('index.html')
 
-@app.route('/register')
+@app.route('/register', methods=['GET', 'POST'])
 def register():
-    return render_template('register.html')
+    form = RegisterForm()
+    if form.validate_on_submit():
+        pass
+    return render_template('register.html', form=form)
 
 
 if __name__ == '__main__':

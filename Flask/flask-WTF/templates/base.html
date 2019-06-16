@@ -1,27 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    {% if title %}
-    <title>{{ title }}</title>
-    {% else %}
-    <title>this is a title</title>
-    {% endif %}
-</head>
-<body>
-    <h1>
-        Hello, World!
-    </h1>
-    {% for p in data %}
-    <p>
-        {{ p }}
-    </p>
-    {% endfor %}
-    {% block content %}
-        <div>
-            {% block app_content%}
-            {% endblock %}
-        </div>
-    {% endblock %}
-</body>
-</html>
+{% extends 'bootstrap/base.html' %}
+
+{% block navbar %}
+    {% include 'navbar.html' %}
+{% endblock%}
+
