@@ -52,3 +52,17 @@ class Solution:
                     llogstr.append(string)
         return llog + dlog
 
+class Solution2:
+    def reorderLogFiles(self, logs: List[str]) -> List[str]:
+        llog = []
+        dlog = []
+        for log in logs:
+            if log[-1].isalpha():
+                llog.append(log)
+            else:
+                dlog.append(log)
+        def sortlog(log):
+            words = log.split(" ", 1)
+            return (words[1],words[0])
+        llog.sort(key=sortlog)
+        return llog + dlog
