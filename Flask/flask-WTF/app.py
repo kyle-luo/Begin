@@ -10,14 +10,10 @@ app.config.from_object(Config)
 
 @app.route('/')
 
-# def go():
-#     title = 'render template'
-#     p = ['lao da', 'lao er', 'lao san']
-#     # return render_template('render templates.html')
-#     # return render_template('render templates.html', title=title)
-#     return render_template('render templates.html', title=title, data=p)
+def go():
+    return render_template('render templates.html')
 
-def run():
+def register():
     return "test"
 
 
