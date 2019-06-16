@@ -18,9 +18,10 @@
     </p>
     {% endfor %}
     {% block content %}
-    <p>
-        this is a block
-    </p>
+        <div>
+            {% block app_content%}
+            {% endblock %}
+        </div>
     {% endblock %}
 </body>
 </html>
