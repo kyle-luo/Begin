@@ -6,10 +6,28 @@
         <h1>Register Now</h1>
         <br>
         <div class="row">
-            <div class="col-md-5">
-                {% import 'bootstrap/wtf.html' as wtf %}
-                {{ wtf.quick_form(form) }}
-            </div>
+            <fieldset>
+                <legend>Register From</legend>
+                <div class="col-md-5">
+
+                    {{ form.username.label }}<br>
+                    {{ form.username }}<br>
+
+                    {{ form.password.label }} <br>
+                    {{ form.password }}<br>
+
+                    {{ form.confirm_password.label }}<br>
+                    {{ form.confirm_password }}<br>
+
+                    {{ form.email.label }}<br>
+                    {{ form.email }}
+                    <br>
+
+                    {{ form.submit }}
+
+                </div>
+            </fieldset>
+
         </div>
     </div>
 {% endblock %}
