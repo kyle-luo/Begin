@@ -6,7 +6,7 @@ from config import Config
 
 from forms import RegisterForm
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='../templates')
 
 bs = Bootstrap(app)
 
@@ -27,4 +27,4 @@ def register():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=3000)

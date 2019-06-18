@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 from config import Config
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='../templates')
 db = SQLAlchemy(app)
 
 app.config.from_object(Config)
@@ -18,8 +18,8 @@ app.config.from_object(Config)
 #     return render_template('render templates.html', title=title, data=p)
 
 def run():
-    return "test"
+    return render_template('index.html')
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=2000)
