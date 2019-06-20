@@ -21,8 +21,8 @@ def go():
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     form = RegisterForm()
-    # if form.validate_on_submit():
-    #     flash("Successfully registered")
+    if form.validate_on_submit():
+        flash("Successfully registered")
     return render_template('register.html', form=form)
 
 
