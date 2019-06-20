@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
 
 {% block content %}
     <div class = 'container'>
@@ -6,27 +7,12 @@
         <h1>Register Now</h1>
         <br>
         <div class="row">
-            <fieldset>
-                <legend>Register From</legend>
-                <div class="col-md-5">
 
-                    {{ form.username.label }}<br>
-                    {{ form.username }}<br>
+            <div class="col-md-8">
 
-                    {{ form.password.label }} <br>
-                    {{ form.password }}<br>
+                {{ wtf.quick_form(form) }}
 
-                    {{ form.confirm_password.label }}<br>
-                    {{ form.confirm_password }}<br>
-
-                    {{ form.email.label }}<br>
-                    {{ form.email }}
-                    <br>
-
-                    {{ form.submit }}
-
-                </div>
-            </fieldset>
+            </div>
 
         </div>
     </div>
