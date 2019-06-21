@@ -7,23 +7,9 @@
         <h1>Register Now</h1>
         <br>
         <div class="row">
-
             <div class="col-md-8">
-
-                {{ form.hidden_tag() }}
-                {{ wtf.form_errors(form, hiddens="only") }}
-
-                {{ wtf.form_field(form.username) }}
-                {{ wtf.form_field(form.password) }}
-                {{ wtf.form_field(form.confirm_password) }}
-                {{ wtf.form_field(form.email) }}
-                {{ wtf.form_field(form.submit) }}
-
-
                 {{ wtf.quick_form(form) }}
-
             </div>
-
         </div>
     </div>
 {% endblock %}

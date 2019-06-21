@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_bootstrap import Bootstrap
+from flask_bcrypt import Bcrypt
 
 from config import Config
 
@@ -13,6 +14,7 @@ bs = Bootstrap(app)
 app.config.from_object(Config)
 db = SQLAlchemy(app)
 
+bcrypt = Bcrypt(app)
 @app.route('/')
 
 def go():
@@ -22,8 +24,14 @@ def go():
 def register():
     form = RegisterForm()
     if form.validate_on_submit():
+        username = form.username.data
+        password = bcrypt.generate_password_hash(form.password.data)
+        email = form.mail.data
+        print(username, password, email)
         flash("Successfully registered")
     return render_template('register.html', form=form)
+
+
 
 
 if __name__ == '__main__':
