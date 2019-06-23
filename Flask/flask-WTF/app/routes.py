@@ -1,30 +1,10 @@
-from flask import Flask, render_template, request, flash
-from flask_sqlalchemy import SQLAlchemy
-from flask_bootstrap import Bootstrap
-from flask_bcrypt import Bcrypt
-from flask_wtf import CsrfProtect
+from flask import render_template, flash
 
-from config import Config
-from forms import RegisterForm
-from model import User
+from app import app, db, bcrypt
 
-#init app with Flask
-app = Flask(__name__, template_folder='../templates')
+from app.forms import RegisterForm
+from app.model import User
 
-#flask-bootstrap render
-bs = Bootstrap(app)
-
-#implement config settings
-app.config.from_object(Config)
-
-#csrfprotect config
-CsrfProtect().init_app(app)
-
-#implement database setting
-db = SQLAlchemy(app)
-
-#Bcrypt setting for encryption (like for password, etc)
-bcrypt = Bcrypt(app)
 
 @app.route('/')
 
@@ -50,9 +30,3 @@ def register():
         print('validation failed')
         print(form.errors)
     return render_template('register.html', form=form)
-
-
-
-
-if __name__ == '__main__':
-    app.run(debug=True, port=3000)
