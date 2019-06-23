@@ -1,6 +1,8 @@
 from flask_wtf import FlaskForm, RecaptchaField
-from wtforms import StringField, PasswordField, SubmitField, validators
-from wtforms.validators import DataRequired, Length, EqualTo, Email
+from wtforms import StringField, PasswordField, SubmitField
+from wtforms.validators import DataRequired, Length, EqualTo, Email, ValidationError
+
+from app.model import User
 
 class RegisterForm(FlaskForm):
     username = StringField('Username', validators=[DataRequired(), Length(min=6, max=20)])
@@ -9,3 +11,13 @@ class RegisterForm(FlaskForm):
     email = StringField('Email', validators=[DataRequired(), Email()])
     recaptcha = RecaptchaField()
     submit = SubmitField('Register')
+
+    def validate_username(self, username):
+        user = User.query.filter_by(username=username.data).first()
+        if user:
+            raise ValidationError('Username is already be registered')
+
+    def validate_email(self, username):
+        user = User.query.filter_by(email=username.data).first()
+        if user:
+            raise ValidationError('Email is already be taken')

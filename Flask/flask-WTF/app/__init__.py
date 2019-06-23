@@ -5,8 +5,6 @@ from flask_bootstrap import Bootstrap
 from flask_bcrypt import Bcrypt
 from flask_wtf import CsrfProtect
 
-import sqlalchemy.dialects.sqlite
-
 from config import Config
 
 #init app with Flask
@@ -20,9 +18,6 @@ CsrfProtect().init_app(app)
 
 #implement config settings
 app.config.from_object(Config)
-
-basedir = os.path.abspath(os.path.dirname(__file__))
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL') or 'sqlite:///' + os.path.join(basedir, 'app.db')
 
 #implement database setting
 db = SQLAlchemy(app)

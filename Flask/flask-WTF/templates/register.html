@@ -8,22 +8,19 @@
         <br>
         <div class="row">
             <div class="col-md-8">
-                 <form action="/register" method="POST" role="form">
-                    {{ form.hidden_tag() }}
+                <div class="row">
+                    {% with messages = get_flashed_messages(with_categories=True) %}
+                        {% if messages %}
+                            {% for category, message in messages %}
+                                <div class="alert alert-{{ category }}">
+                                    {{ message }}
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+                </div>
 
-                    username <br>
-                    {{ form.username }}<br>
-
-                    password <br>
-                    {{ form.password }}<br>
-
-                    Re-enter password <br>
-                    {{ form.confirm_password }}<br>
-
-                    email <br>
-                    {{ form.email }}<br>
-
-                    {{ form.recaptcha }}<br>
+                <form action="/register" method="POST" role="form">
 
                     {% for field in form.errors %}
                         <div class="alert alert-error">
@@ -31,8 +28,7 @@
                         </div>
                     {% endfor %}
 
-                    {{ form.submit }}
-
+                    {{ wtf.quick_form(form) }}
 
                 </form>
             </div>

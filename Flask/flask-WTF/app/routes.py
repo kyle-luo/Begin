@@ -1,14 +1,13 @@
-from flask import render_template, flash
+from flask import render_template, flash, redirect, url_for
 
 from app import app, db, bcrypt
 
-from app.forms import RegisterForm
 from app.model import User
-
+from app.forms import RegisterForm
 
 @app.route('/')
 
-def go():
+def index():
     return render_template('index.html')
 
 @app.route('/register', methods=['GET', 'POST'])
@@ -25,8 +24,8 @@ def register():
         db.session.add(user)
         db.session.commit()
         print(username, password, email)
-        flash('register succeed!')
-
+        flash('register succeed!', category='success')
+        redirect(url_for('index'))
     else:
         print('validation failed')
         print(form.errors)
