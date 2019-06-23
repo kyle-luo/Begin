@@ -8,7 +8,33 @@
         <br>
         <div class="row">
             <div class="col-md-8">
-                {{ wtf.quick_form(form) }}
+                 <form action="/register" method="POST" role="form">
+                    {{ form.hidden_tag() }}
+
+                    username <br>
+                    {{ form.username }}<br>
+
+                    password <br>
+                    {{ form.password }}<br>
+
+                    Re-enter password <br>
+                    {{ form.confirm_password }}<br>
+
+                    email <br>
+                    {{ form.email }}<br>
+
+                    {{ form.recaptcha }}<br>
+
+                    {% for field in form.errors %}
+                        <div class="alert alert-error">
+                            <strong>Error!</strong> {{ field }} {{ form.errors[field] }}
+                        </div>
+                    {% endfor %}
+
+                    {{ form.submit }}
+
+
+                </form>
             </div>
         </div>
     </div>
