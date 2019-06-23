@@ -13,6 +13,9 @@ class Config(object):
     RECAPTCHA_PRIVATE_KEY = '6LehzKkUAAAAABHWvHkpr-7VYG09ZT3pp6XPtKf0'
 
     #Database configuration
-    # SQLALCHEMY_DATABASE_URL = os.environ.get('DATABASE_URL') or 'sqlist:///' + os.path.join(basedir, 'app.db')
-    SQLALCHEMY_DATABASE_URI = 'sqlist:///' + os.path.join(basedir, 'app.db')
+    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or 'sqlite:///' + os.path.join(basedir, 'app.db')
+    # SQLALCHEMY_DATABASE_URI = 'sqlist:///' + os.path.join(basedir, 'app.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+    #CSRF token never expire
+    WTF_CSRF_TIME_LIMIT = None
