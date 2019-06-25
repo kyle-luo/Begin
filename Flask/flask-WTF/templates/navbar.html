@@ -32,9 +32,18 @@
 <!--      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
 <!--    </form>-->
     <ul class="nav navbar-nav navbar-right">
-      <li class="{% if request.endpoint == 'register' %}active{% endif %}">
+      {% if not current_user.is_authenticated %}
+      <li class="{% if request.endpoint == 'login' %}active{% endif %}" style="margin: 1em;">
+        <a href="{{ url_for('login') }}">Login</a>
+      </li>
+      <li class="{% if request.endpoint == 'register' %}active{% endif %}" style="margin: 1em;">
         <a href="{{ url_for('register') }}">Register</a>
       </li>
+      {% else %}
+      <li class="{% if request.endpoint == 'logout' %}active{% endif %}" style="margin: 1em;">
+        <a href="{{ url_for('logout') }}">Logout</a>
+      </li>
+      {% endif %}
     </ul>
   </div>
 

@@ -1,6 +1,15 @@
-from app import db
+from flask_login import UserMixin
 
-class User(db.Model):
+from app import login
+from app.init_db import db
+
+
+@login.user_loader
+def load_user(id):
+    return User.query.filter_by(id=id).first()
+
+
+class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(20), unique=True, nullable=False)
     password = db.Column(db.String(100), nullable=False)
@@ -8,14 +17,3 @@ class User(db.Model):
 
     def __repr__(self):
         return '<User %r>' % self.username
-
-
-def init_db():
-    db.create_all()
-
-    new_user = User(username='testuser', password='testpassword', email='testemail@test.com')
-    db.session.add(new_user)
-    db.session.commit()
-
-if __name__ == '__main__':
-    init_db()
