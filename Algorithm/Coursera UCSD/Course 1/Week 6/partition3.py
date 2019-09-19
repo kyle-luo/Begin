@@ -8,7 +8,6 @@ def partition3(values):
         return 0
 
     pp = t // 3
-    print(pp)
 
     dp = [0 for _ in range(t + 1)]
     count = 0
