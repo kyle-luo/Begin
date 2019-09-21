@@ -34,8 +34,6 @@ class Tree:
         return max(depths) + 1
 
 
-
-
 def compute_height(n, parents):
     # Replace this code with a faster implementation
     # max_height = 0
