@@ -53,18 +53,18 @@ def compute_height(n, parents):
     return tree.check_depth()
 
 
-# def main():
-#     n = int(input())
-#     parents = list(map(int, input().split()))
-#     print(compute_height(n, parents))
-#
-#
-# # In Python, the default limit on recursion depth is rather low,
-# # so raise it here for this problem. Note that to take advantage
-# # of bigger stack, we have to launch the computation in a new thread.
-# sys.setrecursionlimit(10**7)  # max depth of recursion
-# threading.stack_size(2**27)   # new thread will get stack of such size
-# threading.Thread(target=main).start()
+def main():
+    n = int(input())
+    parents = list(map(int, input().split()))
+    print(compute_height(n, parents))
 
 
-print(compute_height(5, [-1, 0, 4, 0, 3]))
+# In Python, the default limit on recursion depth is rather low,
+# so raise it here for this problem. Note that to take advantage
+# of bigger stack, we have to launch the computation in a new thread.
+sys.setrecursionlimit(10**7)  # max depth of recursion
+threading.stack_size(2**27)   # new thread will get stack of such size
+threading.Thread(target=main).start()
+
+
+# print(compute_height(5, [4, -1, 4, 1, 1]))
