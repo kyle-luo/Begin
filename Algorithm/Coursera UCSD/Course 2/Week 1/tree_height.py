@@ -21,7 +21,7 @@ class Tree:
             self.root = self.nodes[val]
         else:
             self.nodes[val].val = val
-            self.nodes[parent].child. append(self.nodes[val])
+            self.nodes[parent].child.append(self.nodes[val])
 
     def check_depth(self):
         if self.root is not None:
