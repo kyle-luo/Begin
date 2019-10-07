@@ -14,14 +14,21 @@ class Buffer:
 
     def process(self, request):
         # write your code here
-        load = 0
-        for quest in request:
-            if load == 0:
-                load += 1
-                self.finish_time.append(quest[1])
-                return quest[0]
 
-
+        while len(self.finish_time) > 0 and request.arrived_at >= self.finish_time[0]:
+            self.finish_time.popleft()
+        if len(self.finish_time) < self.size:
+            if len(self.finish_time) == 0:
+                start = request.arrived_at
+            else:
+                if request.arrived_at <= self.finish_time[-1]:
+                    start = self.finish_time[-1]
+                else:
+                    start = request.arrived_at
+            self.finish_time.append(start + request.time_to_process)
+            return Response(False, start)
+        else:
+            return Response(True, -1)
 
         # return Response(False, -1)
 
